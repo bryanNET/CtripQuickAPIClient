@@ -1,0 +1,28 @@
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 5,
+    "RequestGUID": "b4536c69-7924-441b-9b74-2508e2d2c04a"
+  },
+  "MessageBody": {
+    "DepartPort": "SHA",
+    "ArrivePort": "PEK",
+    "GoDate": "2015-05-18T00:00:00",
+    "BackDate": "2015-05-20T00:00:00",
+    "FlightNumber": "",
+    "TradePolicyType": 0,
+    "GoFlightTimeRangeList": [
+      0,
+      1,
+      2
+    ],
+    "BackFlightTimeRangeList": [
+      0,
+      1,
+      2
+    ]
+  }
+}

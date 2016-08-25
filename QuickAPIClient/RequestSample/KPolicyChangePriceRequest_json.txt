@@ -1,0 +1,35 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "ypcao",
+      "Password": "DF6B369D981E6F39393255E6ECE51D72"
+    },
+    "ClientID": 1,
+    "RequestGUID": "8a9e6273-0c9f-4aa7-a9a6-bcbd45f854d1"
+  },
+  "MessageBody": {
+    "PolicyList": [
+      {
+        "PolicyID": 13149,
+        "PriceUnit": {
+          "ReturnPrice": 800.0,
+          "ReturnPoint": 10.0
+        }
+      },
+      {
+        "PolicyID": 13150,
+        "PriceUnit": {
+          "ReturnPrice": 900.0,
+          "ReturnPoint": 11.0
+        }
+      },
+      {
+        "PolicyID": 13151,
+        "PriceUnit": {
+          "ReturnPrice": 1000.0,
+          "ReturnPoint": 12.0
+        }
+      }
+    ]
+  }
+}

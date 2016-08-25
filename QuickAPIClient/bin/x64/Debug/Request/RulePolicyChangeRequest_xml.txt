@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<RulePolicyChangeRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>shunwangzhang</UserName>
+      <Password>82D42E662861530FF728B611BD17B648</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">203498b6-04be-4070-a74c-bb919a453557</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyList>
+      <Policy>
+        <PolicyID>150015</PolicyID>
+        <BasicUnit>
+          <BatchNo />
+          <TicketType xsi:nil="true" />
+          <IsBooking>T</IsBooking>
+          <OfficeNo />
+          <IsSecurity xsi:nil="true" />
+          <NeedPata xsi:nil="true" />
+          <PolicyCode>adsdasdasdsdasd</PolicyCode>
+          <VipCode>sdhsuadsdklnzxkl</VipCode>
+          <PolicyStatus>NORMAL</PolicyStatus>
+          <IsAutoTicket>F</IsAutoTicket>
+          <IsCustomerPoint>F</IsCustomerPoint>
+          <IsShareFilght>F</IsShareFilght>
+          <TicketRemark xsi:nil="true" />
+        </BasicUnit>
+        <FlightUnit>
+          <FlightWay>S</FlightWay>
+          <AirLine>3U</AirLine>
+          <GoFlight>
+            <SaleFlightList>
+              <SaleFlight>
+                <DPort>SHA</DPort>
+                <Aport>SZX</Aport>
+                <FlightFrom>1001</FlightFrom>
+                <FlightTo>1006</FlightTo>
+                <IsCanSale>T</IsCanSale>
+              </SaleFlight>
+            </SaleFlightList>
+            <EffectDate>2014-10-14T12:59:08.7989596+08:00</EffectDate>
+            <ExpiryDate>2014-10-15T12:59:08.7989596+08:00</ExpiryDate>
+            <DepartTimeLimit />
+            <Days />
+          </GoFlight>
+        </FlightUnit>
+        <SaleLimitUnit>
+          <EffectDate>2014-09-20T10:39:21.75</EffectDate>
+          <ExpiryDate>2014-09-30T10:39:21.75</ExpiryDate>
+          <UnEffectDate>2014-09-21T10:39:21.75</UnEffectDate>
+          <UnExpiryDate>2014-09-22T10:39:21.75</UnExpiryDate>
+          <ControlTime>0000-1000</ControlTime>
+          <MinAdvanceDays>2</MinAdvanceDays>
+          <MaxAdvanceDays>365</MaxAdvanceDays>
+          <MinStopDays>82</MinStopDays>
+          <MaxStopDays>88</MaxStopDays>
+          <PassengerAgeLimitRemarks>28-30</PassengerAgeLimitRemarks>
+          <ApplyChild xsi:nil="true" />
+          <PassengersNum>2</PassengersNum>
+          <IsCompositionPrice>T</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <VouchersType xsi:nil="true" />
+        </SaleLimitUnit>
+        <RulePriceUnit>
+          <RulePriceList>
+            <RulePrice>
+              <SubClass>M</SubClass>
+              <IsUpgrade>F</IsUpgrade>
+              <RcID>3081</RcID>
+              <RuleRestrict>
+                <Name xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">name_me</Name>
+                <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+                <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0.0000</MinFeeExpense>
+                <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-8-20-0-30</RefundRateRemarks>
+                <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-16-20-0-30</ReroutRateRemarks>
+                <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+                <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">im remark</Remarks>
+                <HasAssignEntry xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+                <ChargeRule xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</ChargeRule>
+              </RuleRestrict>
+              <ClassForbidden>T</ClassForbidden>
+              <PriceRule>TicketPricePercent</PriceRule>
+              <DownwardRate>1.00</DownwardRate>
+              <SubtractPrice>2</SubtractPrice>
+              <SalePriceRule xsi:nil="true" />
+              <SaleDownwardRate xsi:nil="true" />
+              <SaleSubtractPrice xsi:nil="true" />
+              <NumCarryRule>Tens</NumCarryRule>
+              <Commision>2.00</Commision>
+              <ReturnPrice>2.00</ReturnPrice>
+              <InventoryType>FAV</InventoryType>
+              <Inventory>113</Inventory>
+              <LeftInventory>0</LeftInventory>
+            </RulePrice>
+          </RulePriceList>
+        </RulePriceUnit>
+        <TicketUnit>
+          <TicketSupplierList />
+        </TicketUnit>
+      </Policy>
+    </PolicyList>
+  </MessageBody>
+</RulePolicyChangeRequest>

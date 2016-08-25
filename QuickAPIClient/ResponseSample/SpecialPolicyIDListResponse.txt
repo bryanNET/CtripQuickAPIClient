@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialPolicyIDListResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-04-02T19:16:16.3336217+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+    <SearchResult xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <TotalCount>363155</TotalCount>
+      <PolicyList>
+        <Policy>
+          <ID>14848280</ID>
+          <Code>RyTest</Code>
+        </Policy>
+        <Policy>
+          <ID>14848281</ID>
+          <Code>RyTest</Code>
+        </Policy>
+        <Policy>
+          <ID>14848282</ID>
+          <Code>RyTest</Code>
+        </Policy>
+        <Policy>
+          <ID>14848283</ID>
+          <Code>RyTest</Code>
+        </Policy>
+        <Policy>
+          <ID>14848284</ID>
+          <Code>RyTest</Code>
+        </Policy>
+      </PolicyList>
+    </SearchResult>
+  </TradeResult>
+</SpecialPolicyIDListResponse>

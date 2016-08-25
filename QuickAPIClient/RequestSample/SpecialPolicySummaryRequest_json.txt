@@ -1,0 +1,32 @@
+﻿1. ByCondition-All
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"RequestGUID":null},"MessageBody":{"StartIndex":1,"PageSize":1000,"SearchType":1,"PolicyIDList":null,"SearchCondition":null}}
+
+2. ByCondition
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"RequestGUID":null},"MessageBody":{"StartIndex":1,"PageSize":1000,"SearchType":1,"PolicyIDList":[],"SearchCondition":{"FlightWay":2,"AirLine":"CA","EffectDate":"2014-05-01T00:00:00","ExpiryDate":"2014-05-30T00:00:00","GoFlighteffectDate":"2014-05-01T00:00:00","GoFlightexpiryDate":"2014-05-30T00:00:00","DepartPort":"SHA","ArrivePort":"PEK","IsValid":1,"ProductType":1,"GoSubClass":"B","BackSubClass":"M1","InventoryType":0,"PolicyCode":"B2B"}}}
+
+3. ByID
+<?xml version="1.0"?>
+<SpecialPolicySummaryRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>1</StartIndex>
+    <PageSize>1000</PageSize>
+    <SearchType>ByID</SearchType>
+    <PolicyIDList>
+      <ID>17311795</ID>
+      <ID>4001937242</ID>
+      <ID>4001937242</ID>
+      <ID>17311772</ID>
+      <ID>4000000341</ID>
+      <ID>4000003947</ID>
+      <ID>4000003948</ID>
+      <ID>4000003952</ID>
+      <ID>4078940734</ID>
+    </PolicyIDList>
+  </MessageBody>
+</SpecialPolicySummaryRequest>

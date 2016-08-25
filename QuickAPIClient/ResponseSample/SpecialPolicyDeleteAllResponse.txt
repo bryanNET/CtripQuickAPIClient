@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialPolicyDeleteAllResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">0001-01-01T00:00:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+    <Errors xmlns="http://soa.ctrip.com/common/types/v1">
+      <Message>String</Message>
+      <ErrorCode>String</ErrorCode>
+      <StackTrace>String</StackTrace>
+      <SeverityCode>Error</SeverityCode>
+      <ErrorFields>
+        <FieldName>String</FieldName>
+        <ErrorCode>String</ErrorCode>
+        <Message>String</Message>
+      </ErrorFields>
+      <ErrorClassification>ServiceError</ErrorClassification>
+    </Errors>
+    <Build xmlns="http://soa.ctrip.com/common/types/v1">String</Build>
+    <Version xmlns="http://soa.ctrip.com/common/types/v1">String</Version>
+    <Extension xmlns="http://soa.ctrip.com/common/types/v1">
+      <Id>String</Id>
+      <Version>String</Version>
+      <ContentType>String</ContentType>
+      <Value>String</Value>
+    </Extension>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList>
+      <Error xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+        <ErrorCode>0</ErrorCode>
+        <ErrorMessage>String</ErrorMessage>
+      </Error>
+    </ErrorList>
+    <SuccessCount>0</SuccessCount>
+  </TradeResult>
+</SpecialPolicyDeleteAllResponse>

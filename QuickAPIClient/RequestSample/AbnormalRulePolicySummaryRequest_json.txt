@@ -1,0 +1,75 @@
+﻿1. 异常政策规则运价全部 ByCondition-All
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 1,
+    "RequestGUID": "96f722a7-1ac9-41b6-868b-62b7c3d867d2"
+  },
+  "MessageBody": {
+    "StartIndex": 1,
+    "PageSize": 1000,
+    "SearchType": 1,
+    "PolicyIDList": [],
+    "SearchCondition": null
+  }
+}
+
+2. 异常政策运价ByCondition
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 1,
+    "RequestGUID": "eee4ecad-6b8a-485d-8b6f-e0fc7e96e59c"
+  },
+  "MessageBody": {
+    "StartIndex": 1,
+    "PageSize": 1000,
+    "SearchType": 1,
+    "PolicyIDList": [],
+    "SearchCondition": {
+      "FlightWay": 0,
+      "AirLine": "HU",
+      "EffectDate": "2015-03-02T14:49:21.3620517+08:00",
+      "ExpiryDate": "2015-04-24T00:00:00",
+      "GoFlighteffectDate": "2015-01-02T14:49:21.3620517+08:00",
+      "GoFlightexpiryDate": "2015-01-23T00:00:00",
+      "DepartPort": "SZX",
+      "ArrivePort": "TAO",
+      "SubClass": "H",
+      "PolicyCode": "",
+      "InventoryType": null,
+      "IsBooking": 0,
+      "AbnormalType": null
+    }
+  }
+}
+
+
+3. 异常政策运价ByID
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 1,
+    "RequestGUID": "c536246d-53e3-4148-b020-a37fb6dc9824"
+  },
+  "MessageBody": {
+    "StartIndex": 1,
+    "PageSize": 1000,
+    "SearchType": 0,
+    "PolicyIDList": [
+      925381,
+      225381,
+      125381
+    ],
+    "SearchCondition": null
+  }
+}

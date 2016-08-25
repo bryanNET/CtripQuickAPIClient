@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<KPolicyChangeRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ea3e11ad-f95a-44d6-8280-65895c19cccc</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyList>
+      <Policy>
+        <PolicyID>17260</PolicyID>
+        <SummaryUnit>
+          <PolicyCode>GEN-23:32-2</PolicyCode>
+          <RestrictRuleID xsi:nil="true" />
+          <AirLine>MU</AirLine>
+          <DepartPort>TSN</DepartPort>
+          <ArrivePort>CKG</ArrivePort>
+          <AllowSaleEffectDate>2014-11-01T00:00:00</AllowSaleEffectDate>
+          <AllowSaleExpiryDate>2014-12-31T00:00:00</AllowSaleExpiryDate>
+          <ForbidSaleEffectDate>2014-11-20T00:00:00</ForbidSaleEffectDate>
+          <ForbidSaleExpiryDate>2014-12-10T00:00:00</ForbidSaleExpiryDate>
+          <SaleTimeLimit>0000-2359</SaleTimeLimit>
+          <MinAdvanceDay>7</MinAdvanceDay>
+          <MaxAdvanceDay>91</MaxAdvanceDay>
+          <IsValid>T</IsValid>
+          <IsApplyChild xsi:nil="true" />
+          <IsAutoTicket xsi:nil="true" />
+          <IsEarnPoint xsi:nil="true" />
+          <IsShareCode xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+          <PassengerNum xsi:nil="true" />
+          <PassengerAge xsi:nil="true" />
+          <VoucherType xsi:nil="true" />
+          <KSupplier xsi:nil="true" />
+          <KSupplierName xsi:nil="true" />
+          <TicketCity xsi:nil="true" />
+        </SummaryUnit>
+        <DiscountUnit>
+          <SubClassKType>MIN</SubClassKType>
+          <SubClassFixK />
+          <SubClassMinK>S</SubClassMinK>
+          <DownwardRate>10</DownwardRate>
+          <SubClassSpanK>0</SubClassSpanK>
+          <KWorkTime />
+          <KWorkMode>A</KWorkMode>
+        </DiscountUnit>
+        <FlightUnit>
+          <FlightEffectDate>2014-11-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2014-12-31T00:00:00</FlightExpiryDate>
+          <FlightDay>12345</FlightDay>
+          <FlightTime>0000-2359</FlightTime>
+        </FlightUnit>
+        <InventoryUnit>
+          <InventoryList />
+        </InventoryUnit>
+        <PriceUnit>
+          <ReturnPrice>15.00</ReturnPrice>
+          <ReturnPoint>16.00</ReturnPoint>
+        </PriceUnit>
+        <ConditionUnit>
+          <IdentityCardList />
+          <PaymentMethodList />
+          <PaymentCardList />
+        </ConditionUnit>
+      </Policy>
+    </PolicyList>
+  </MessageBody>
+</KPolicyChangeRequest>

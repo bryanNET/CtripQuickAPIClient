@@ -1,0 +1,81 @@
+﻿--ByID
+<?xml version="1.0"?>
+<KPolicyBatchChangeRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:common:ICommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>DF6B369D981E6F39393255E6ECE51D72</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">2</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">8ebbd53d-6765-4547-ac3d-85969b85dffb</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <ChangeType>ByID</ChangeType>
+    <PolicyIDList>
+      <ID>382</ID>
+      <ID>383</ID>
+    </PolicyIDList>
+    <UpdateColumns>
+      <EffectDate xsi:nil="true" />
+      <ExpiryDate xsi:nil="true" />
+      <GoEffectDate xsi:nil="true" />
+      <GoExpiryDate xsi:nil="true" />
+      <DepartTime />
+      <AdvanceDay>99</AdvanceDay>
+      <MaxAdvanceDay>365</MaxAdvanceDay>
+      <Days>1234567</Days>
+      <ReturnPrice xsi:nil="true" />
+      <ReturnPoint xsi:nil="true" />
+      <IsValid xsi:nil="true" />
+    </UpdateColumns>
+  </MessageBody>
+</KPolicyBatchChangeRequest>
+
+--ByCondition
+<?xml version="1.0"?>
+<KPolicyBatchChangeRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:common:ICommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>DF6B369D981E6F39393255E6ECE51D72</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">f075c38c-8c54-44e8-9e03-16c72fb659ae</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <ChangeType>ByCondition</ChangeType>
+    <PolicyIDList />
+    <SearchCondition>
+      <AirLine xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <FlightNo xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <ArrivePort xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <DepartPort xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <SaleEffectDate xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <SaleExpiryDate xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <FlightEffectDate xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <FlightExpiryDate xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <IsExactDate xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <BatchNo xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <PolicyCode xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <PolicySource xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <IsValid xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <IsCanSale xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <FixKSubclass xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <MinKSubclass xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+      <KSupplier xsi:nil="true" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1" />
+    </SearchCondition>
+    <UpdateColumns>
+      <EffectDate xsi:nil="true" />
+      <ExpiryDate xsi:nil="true" />
+      <GoEffectDate xsi:nil="true" />
+      <GoExpiryDate xsi:nil="true" />
+      <DepartTime xsi:nil="true" />
+      <AdvanceDay xsi:nil="true" />
+      <MaxAdvanceDay xsi:nil="true" />
+      <Days>1234567</Days>
+      <ReturnPrice xsi:nil="true" />
+      <ReturnPoint xsi:nil="true" />
+      <IsValid xsi:nil="true" />
+    </UpdateColumns>
+  </MessageBody>
+</KPolicyBatchChangeRequest>

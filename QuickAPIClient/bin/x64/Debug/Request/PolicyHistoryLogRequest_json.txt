@@ -1,0 +1,14 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "内部测试",
+      "Password": "1BDCD7C9C1C31419D384C6BC369CF746"
+    },
+    "ClientID": 5,
+    "RequestGUID": "f9861e15-050c-4260-a8a6-6186d2709309"
+  },
+  "MessageBody": {
+    "PolicyID": 36102501680,
+    "LogType": 0
+  }
+}

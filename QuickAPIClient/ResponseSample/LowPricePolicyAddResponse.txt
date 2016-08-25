@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LowPricePolicyAddResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-08-21T14:20:49.2315981+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+    <Extension xmlns="http://soa.ctrip.com/common/types/v1">
+      <Id>CLOGGING_TRACE_ID</Id>
+      <Value>9014036299692180622</Value>
+    </Extension>
+  </ResponseStatus>
+  <TradeResult>
+    <Result xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <Summary>
+        <SuccessCount>1</SuccessCount>
+        <FailedCount>0</FailedCount>
+      </Summary>
+      <SuccessList>
+        <ID>2667890745</ID>
+      </SuccessList>
+      <FailedList />
+    </Result>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </TradeResult>
+</LowPricePolicyAddResponse>

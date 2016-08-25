@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RulePolicyDeleteRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>shunwangzhang</UserName>
+      <Password>82D42E662861530FF728B611BD17B648</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">763f7622-4c64-4f9a-85a8-3d2a5fb5126a</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicySource xsi:nil="true" />
+    <DeleteType>ByID</DeleteType>
+    <PolicyIDList>
+      <ID>150016</ID>
+      <ID>1141</ID>
+    </PolicyIDList>
+    <PolicyCodeList />
+    <IsFuzzyMatch xsi:nil="true" />
+  </MessageBody>
+</RulePolicyDeleteRequest>

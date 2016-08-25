@@ -1,0 +1,966 @@
+﻿<?xml version="1.0"?>
+<SpecialPolicyAddRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>bei_zhang</UserName>
+      <Password>69F28229FA0BB2B22E2C565C56FD9439</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">8a96d425-18a0-419b-9084-3c7d6261d209</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyList>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-0</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark>出票备注测试</TicketRemark>
+	  <IsShareFlight>T</IsShareFlight>
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-1</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-2</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-3</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-4</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-5</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-6</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-7</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-8</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>2652691799</PolicyID>
+        <SummaryUnit>
+          <SupplierPolicyID>0</SupplierPolicyID>
+          <Class>Y</Class>
+          <AdvanceDay>20</AdvanceDay>
+          <MaxAdvanceDay>30</MaxAdvanceDay>
+          <RcID xsi:nil="true" />
+          <PolicyCode>GEN-9:50-9</PolicyCode>
+          <PolicySource>All</PolicySource>
+          <AirLine>MU</AirLine>
+          <FlightWay>D</FlightWay>
+          <ApplyChild>T</ApplyChild>
+          <OfficeNo>MU_SHA</OfficeNo>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <MinStopDay>1</MinStopDay>
+          <MaxStopDay>3</MaxStopDay>
+          <IsValid>T</IsValid>
+          <ProductType>NFD</ProductType>
+          <IsSecurity xsi:nil="true" />
+          <ApplyFlag xsi:nil="true" />
+          <SaleTimeLimit />
+          <DateCanSale>T</DateCanSale>
+          <PataPriceValue>10</PataPriceValue>
+          <PataVerifyPriceOption>0</PataVerifyPriceOption>
+          <PassengersNum>3</PassengersNum>
+          <PassengerAgeLimitRemarks />
+          <VouchersType>0</VouchersType>
+          <NeedPATA xsi:nil="true" />
+          <PataCode />
+          <BatchNo xsi:nil="true" />
+          <TicketRemark xsi:nil="true" />
+        </SummaryUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+          <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+        </RuleRestrict>
+        <InventoryUnit>
+          <InventoryType>FAV</InventoryType>
+          <IsBooking>F</IsBooking>
+          <FIX>
+            <SaledTicketNum>0</SaledTicketNum>
+            <TicketInventory>100</TicketInventory>
+          </FIX>
+        </InventoryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </GoFlightUnit>
+        <BackFlightUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>M</SubClass>
+          <IsCanSale>T</IsCanSale>
+          <RuleDetail>1100-1120</RuleDetail>
+          <DepartTimeLimit />
+        </BackFlightUnit>
+        <ConditionUnit>
+          <IDCardList>
+            <Item>BD</Item>
+            <Item>BRC</Item>
+          </IDCardList>
+          <PayTypeList>
+            <Item>ABPAY</Item>
+            <Item>ACCNT</Item>
+          </PayTypeList>
+          <CardTypeList>
+            <Item>ABC</Item>
+            <Item>BC</Item>
+          </CardTypeList>
+        </ConditionUnit>
+        <PriceUnit>
+          <IsCompositionPrice>false</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <PrintPrice>13</PrintPrice>
+          <SalePrice>10</SalePrice>
+          <SetPrice>11</SetPrice>
+          <ReturnPrice>1</ReturnPrice>
+          <ReturnPoint>1</ReturnPoint>
+          <ForceNomal>false</ForceNomal>
+        </PriceUnit>
+      </Policy>
+    </PolicyList>
+  </MessageBody>
+</SpecialPolicyAddRequest>

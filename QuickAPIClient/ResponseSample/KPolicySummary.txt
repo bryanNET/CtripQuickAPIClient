@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KPolicySummaryResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-10-27T11:13:26.4361214+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <SearchResult>
+      <TotalCount>2</TotalCount>
+      <PolicyList>
+        <Policy>
+          <PolicyID>16548</PolicyID>
+          <PolicyCode>GEN1937</PolicyCode>
+          <BatchNo />
+          <AirLine>CA</AirLine>
+          <DepartPort>PVG</DepartPort>
+          <ArrivePort>PEK</ArrivePort>
+          <FlightEffectDate>2014-10-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2014-12-31T00:00:00</FlightExpiryDate>
+          <AllowSaleEffectDate>2014-10-01T00:00:00</AllowSaleEffectDate>
+          <AllowSaleExpiryDate>2014-10-31T00:00:00</AllowSaleExpiryDate>
+          <PublishTime>2014-10-24T00:00:00</PublishTime>
+          <IsValid>F</IsValid>
+          <SubClassFixK>M1</SubClassFixK>
+          <SubClassMinK />
+          <KSupplier>671</KSupplier>
+          <KSupplierCity>SHA</KSupplierCity>
+          <KSupplierName>上海携程内部测试</KSupplierName>
+        </Policy>
+        <Policy>
+          <PolicyID>13318</PolicyID>
+          <PolicyCode />
+          <BatchNo />
+          <AirLine>CA</AirLine>
+          <DepartPort>PVG</DepartPort>
+          <ArrivePort>PEK</ArrivePort>
+          <FlightEffectDate>2014-06-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2014-06-30T00:00:00</FlightExpiryDate>
+          <AllowSaleEffectDate>2014-05-01T00:00:00</AllowSaleEffectDate>
+          <AllowSaleExpiryDate>2014-05-31T00:00:00</AllowSaleExpiryDate>
+          <PublishTime>2014-08-11T00:00:00</PublishTime>
+          <IsValid>F</IsValid>
+          <SubClassFixK>M1</SubClassFixK>
+          <SubClassMinK />
+          <KSupplier>671</KSupplier>
+          <KSupplierCity>SHA</KSupplierCity>
+          <KSupplierName>上海携程内部测试</KSupplierName>
+        </Policy>
+      </PolicyList>
+    </SearchResult>
+  </TradeResult>
+</KPolicySummaryResponse>

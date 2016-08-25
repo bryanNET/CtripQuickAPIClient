@@ -1,0 +1,172 @@
+﻿1、SPECIALPOLICY 请求报文
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "cfe23db7-3354-4675-b7e4-5ed0e5ac9ecb"
+  },
+  "MessageBody": {
+    "SearchCondition": {
+      "AirLine": "",
+      "EffectDate": "2015-11-26T00:00:00",
+      "DepartPort": "CAN",
+      "ArrivePort": "HGH",
+      "GoSubClass": "",
+      "TradePolicyType": 1,
+      "ShareProductTypeList": [
+        3,
+        6,
+        4,
+        2,
+        13,
+        0
+      ],
+      "IsRealTimeData": "False"
+    }
+  }
+}
+
+2、RAWPOLICY 请求报文
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "cfe23db7-3354-4675-b7e4-5ed0e5ac9ecb"
+  },
+  "MessageBody": {
+    "SearchCondition": {
+      "AirLine": "",
+      "EffectDate": "2015-11-24T00:00:00",
+      "DepartPort": "CAN",
+      "ArrivePort": "HGH",
+      "GoSubClass": "",
+      "TradePolicyType": 0,
+      "ShareProductTypeList": [
+        1,
+        7,
+        10,
+        8,
+        9,
+        11,
+        12,
+        13,
+        0
+      ],
+      "IsRealTimeData": "False"
+    }
+  }
+}
+3、ALL 请求报文
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 5,
+    "RequestGUID": "dd1a4abd-0e0a-4485-b4a5-4782bcc92b0b"
+  },
+  "MessageBody": {
+    "SearchCondition": {
+      "AirLine": "",
+      "EffectDate": "2015-03-06T00:00:00",
+      "DepartPort": "SHA",
+      "ArrivePort": "PEK",
+      "GoSubClass": "",
+      "TradePolicyType": 4,
+      "ShareProductTypeList": [
+        3,
+        6,
+        4,
+        2,
+        1,
+        7,
+        10,
+        8,
+        9,
+        11,
+        12,
+        13,
+        0
+      ],
+      "IsRealTimeData": "False"
+    }
+  }
+}
+4、NA 请求报文
+
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 5,
+    "RequestGUID": "a44c8608-e7a2-4310-91a7-142fd1128f18"
+  },
+  "MessageBody": {
+    "SearchCondition": {
+      "AirLine": "",
+      "EffectDate": "2015-03-06T00:00:00",
+      "DepartPort": "SHA",
+      "ArrivePort": "PEK",
+      "GoSubClass": "",
+      "TradePolicyType": 5,
+      "ShareProductTypeList": [
+        0,
+        3,
+        6,
+        4,
+        2,
+        1,
+        7,
+        10,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "IsRealTimeData": "False"
+    }
+  }
+}
+
+5、查询多个日期 请求报文
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "cfe23db7-3354-4675-b7e4-5ed0e5ac9ecb"
+  },
+  "MessageBody": {
+    "SearchCondition": {
+      "AirLine": "",
+      "EffectDate": "2015-11-26T00:00:00",
+      "DepartPort": "CAN",
+      "ArrivePort": "HGH",
+      "GoSubClass": "",
+      "TradePolicyType": 1,
+      "ShareProductTypeList": [
+        3,
+        6,
+        4,
+        2,
+        13,
+        0
+      ],
+      "IsRealTimeData": "False",
+      "ExipryDate": "2015-11-28T00:00:00"
+    }
+  }
+}
+

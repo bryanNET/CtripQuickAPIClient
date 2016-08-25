@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FdPolicySearchResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:ExternalBaseData.v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-07-14T20:01:48.163367+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+    <Extension xmlns="http://soa.ctrip.com/common/types/v1">
+      <Id>CLOGGING_TRACE_ID</Id>
+      <Value>5491637940194523437</Value>
+    </Extension>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <SearchResultList>    
+       <SearchResult>
+          <Route>CAN-CTU</Route>
+          <Count>1</Count>
+          <FdPolicyList>
+            <FdPolicy>
+              <FlightWay>S</FlightWay>
+              <Dcity>CAN</Dcity>
+              <Acity>CTU</Acity>
+              <Airline>CA</Airline>
+              <Class>Y</Class>
+              <SubClass>K</SubClass>
+              <DepartEffectDate>2015-05-01T00:00:00</DepartEffectDate>
+              <DepartExpiryDate>2016-03-26T00:00:00</DepartExpiryDate>
+              <Price>1070.0000</Price>
+              <DownloadType>0</DownloadType>
+            </FdPolicy>
+          </FdPolicyList>
+      </SearchResult>
+   </SearchResultList>
+  </TradeResult>
+</FdPolicySearchResponse>

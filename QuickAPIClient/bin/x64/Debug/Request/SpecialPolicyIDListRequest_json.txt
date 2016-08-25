@@ -1,0 +1,8 @@
+﻿1.ByCondition-查所有
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":0,"PageSize":100000,"SearchType":1,"PolicyCode":null,"SearchCondition":null}}
+
+2.ByCondition-根据条件查询
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":0,"PageSize":100000,"SearchType":1,"PolicyCode":null,"SearchCondition":{"FlightWay":2,"AirLine":"CA","EffectDate":"2014-04-23T19:14:12.1693326+08:00","ExpiryDate":"2014-04-23T19:14:12.1693326+08:00","GoFlighteffectDate":"2014-04-23T19:14:12.1693326+08:00","GoFlightexpiryDate":"2014-04-23T19:14:12.1693326+08:00","DepartPort":"SHA","ArrivePort":"PEK","IsValid":1,"ProductType":0,"GoSubClass":"A","BackSubClass":"A","InventoryType":0}}}
+
+3.ByCode
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":0,"PageSize":100000,"SearchType":0,"PolicyCode":"GEN-16:46-1","SearchCondition":null}}

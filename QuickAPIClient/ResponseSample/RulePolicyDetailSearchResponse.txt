@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RulePolicyDetailSearchResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-11-10T22:34:18.5833152+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+    <Extension xmlns="http://soa.ctrip.com/common/types/v1">
+      <Id>CLOGGING_TRACE_ID</Id>
+      <Value>9108830674488171710</Value>
+    </Extension>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <PolicyList>
+      <Policy>
+        <PolicyID>150111</PolicyID>
+        <BasicUnit>
+          <BatchNo />
+          <TicketType>1111</TicketType>
+          <IsBooking>T</IsBooking>
+          <OfficeNo />
+          <IsSecurity>F</IsSecurity>
+          <NeedPata>F</NeedPata>
+          <PolicyCode>adsdasdasdsdasd</PolicyCode>
+          <VipCode>sdhsuadsdklnzxkl</VipCode>
+          <PolicyStatus>NORMAL</PolicyStatus>
+          <IsAutoTicket>F</IsAutoTicket>
+          <IsCustomerPoint>F</IsCustomerPoint>
+          <IsShareFilght>F</IsShareFilght>
+          <TicketRemark />
+        </BasicUnit>
+        <FlightUnit>
+          <FlightWay>S</FlightWay>
+          <AirLine>3U</AirLine>
+          <GoFlight>
+            <SaleFlightList>
+              <SaleFlight>
+                <DPort>SHA</DPort>
+                <Aport>SZX</Aport>
+                <FlightFrom>3U1001</FlightFrom>
+                <FlightTo>3U1006</FlightTo>
+                <IsCanSale>T</IsCanSale>
+              </SaleFlight>
+            </SaleFlightList>
+            <EffectDate>2014-10-14T12:59:08.8</EffectDate>
+            <ExpiryDate>2014-10-15T12:59:08.8</ExpiryDate>
+            <DepartTimeLimit />
+            <Days>
+            </Days>
+          </GoFlight>
+        </FlightUnit>
+        <SaleLimitUnit>
+          <EffectDate>2014-09-20T10:39:21.75</EffectDate>
+          <ExpiryDate>2014-09-30T10:39:21.75</ExpiryDate>
+          <UnEffectDate>2014-09-21T10:39:21.75</UnEffectDate>
+          <UnExpiryDate>2014-09-22T10:39:21.75</UnExpiryDate>
+          <ControlTime>0000-1000</ControlTime>
+          <MinAdvanceDays>2</MinAdvanceDays>
+          <MaxAdvanceDays>365</MaxAdvanceDays>
+          <MinStopDays>82</MinStopDays>
+          <MaxStopDays>88</MaxStopDays>
+          <PassengerAgeLimitRemarks>28-30</PassengerAgeLimitRemarks>
+          <ApplyChild>F</ApplyChild>
+          <PassengersNum>2</PassengersNum>
+          <IsCompositionPrice>T</IsCompositionPrice>
+          <CompositionPriceRemark />
+          <VouchersType>NONE</VouchersType>
+        </SaleLimitUnit>
+        <RulePriceUnit>
+          <RulePriceList>
+            <RulePrice>
+              <SubClass>M</SubClass>
+              <IsUpgrade>F</IsUpgrade>
+              <RcID>14</RcID>
+              <ClassForbidden>T</ClassForbidden>
+              <PriceRule>TicketPricePercent</PriceRule>
+              <DownwardRate>1.0</DownwardRate>
+              <SubtractPrice>2</SubtractPrice>
+              <SalePriceRule xsi:nil="true" />
+              <SaleDownwardRate xsi:nil="true" />
+              <SaleSubtractPrice>0</SaleSubtractPrice>
+              <NumCarryRule>Tens</NumCarryRule>
+              <Commision>2.00</Commision>
+              <ReturnPrice>2.00</ReturnPrice>
+              <InventoryType>FAV</InventoryType>
+              <Inventory>113</Inventory>
+              <LeftInventory>113</LeftInventory>
+            </RulePrice>
+          </RulePriceList>
+        </RulePriceUnit>
+        <TicketUnit>
+          <TicketSupplierList />
+        </TicketUnit>
+      </Policy>
+    </PolicyList>
+  </TradeResult>
+</RulePolicyDetailSearchResponse>

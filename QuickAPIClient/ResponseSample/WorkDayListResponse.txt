@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorkDayListResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:workingTime:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-08-01T16:48:23.9996548+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <SearchResult>
+      <TotalCount>8</TotalCount>
+      <WorkDayList>
+        <WorkDay>
+          <Supplier>671</Supplier>
+          <WorkDate>2014-08-08T00:00:00</WorkDate>
+          <Week>Saturday</Week>
+          <IsWorkDay>false</IsWorkDay>
+          <WorkDayID>19</WorkDayID>
+        </WorkDay>
+        <WorkDay>
+          <Supplier>671</Supplier>
+          <WorkDate>2014-08-07T00:00:00</WorkDate>
+          <Week>Friday</Week>
+          <IsWorkDay>false</IsWorkDay>
+          <WorkDayID>21</WorkDayID>
+        </WorkDay>
+        <WorkDay>
+          <Supplier>671</Supplier>
+          <WorkDate>2014-08-05T00:00:00</WorkDate>
+          <Week>Wednesday</Week>
+          <IsWorkDay>false</IsWorkDay>
+          <WorkDayID>22</WorkDayID>
+        </WorkDay>
+        <WorkDay>
+          <Supplier>671</Supplier>
+          <WorkDate>2014-08-12T00:00:00</WorkDate>
+          <Week>Wednesday</Week>
+          <IsWorkDay>false</IsWorkDay>
+          <WorkDayID>23</WorkDayID>
+        </WorkDay>
+        <WorkDay>
+          <Supplier>671</Supplier>
+          <WorkDate>2014-08-13T00:00:00</WorkDate>
+          <Week>Thursday</Week>
+          <IsWorkDay>true</IsWorkDay>
+          <WorkDayID>24</WorkDayID>
+        </WorkDay>
+        <WorkDay>
+          <Supplier>671</Supplier>
+          <WorkDate>2014-08-04T00:00:00</WorkDate>
+          <Week>Tuesday</Week>
+          <IsWorkDay>false</IsWorkDay>
+          <WorkDayID>25</WorkDayID>
+        </WorkDay>
+        <WorkDay>
+          <Supplier>671</Supplier>
+          <WorkDate>2014-08-11T00:00:00</WorkDate>
+          <Week>Tuesday</Week>
+          <IsWorkDay>false</IsWorkDay>
+          <WorkDayID>26</WorkDayID>
+        </WorkDay>
+        <WorkDay>
+          <Supplier>671</Supplier>
+          <WorkDate>2014-08-06T00:00:00</WorkDate>
+          <Week>Thursday</Week>
+          <IsWorkDay>true</IsWorkDay>
+          <WorkDayID>27</WorkDayID>
+        </WorkDay>
+      </WorkDayList>
+    </SearchResult>
+  </TradeResult>
+</WorkDayListResponse>

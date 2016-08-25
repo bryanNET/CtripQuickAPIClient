@@ -1,0 +1,13 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "ypcao",
+      "Password": "DF6B369D981E6F39393255E6ECE51D72"
+    },
+    "ClientID": 4,
+    "RequestGUID": "f7e2a0e6-c0d1-47f7-bd46-63b84ab86196"
+  },
+  "MessageBody": {
+    "RcID": 0
+  }
+}

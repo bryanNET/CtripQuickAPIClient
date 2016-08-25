@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<RuleRestrictAddRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:common:CommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ed6cef2f-e60b-48fd-bb55-e6f1d9c90209</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <RuleRestrict>
+      <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+      <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+      <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-50</RefundRateRemarks>
+      <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10-0-22</ReroutRateRemarks>
+      <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+      <Remarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">QuickAPI-Rule</Remarks>
+    </RuleRestrict>
+  </MessageBody>
+</RuleRestrictAddRequest>

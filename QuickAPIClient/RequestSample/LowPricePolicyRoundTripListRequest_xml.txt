@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<LowPricePolicyRoundTripListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>bei_zhang</UserName>
+      <Password>69F28229FA0BB2B22E2C565C56FD9439</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">b4536c69-7924-441b-9b74-2508e2d2c04a</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <DepartPort>SHA</DepartPort>
+    <ArrivePort>PEK</ArrivePort>
+    <GoDate>2015-05-18</GoDate>
+    <BackDate>2015-05-20</BackDate>
+    <FlightNumber />
+    <TradePolicyType>All</TradePolicyType>
+    <GoFlightTimeRangeList>
+      <Item>SixToTwelve</Item>
+      <Item>TwelveToEighteen</Item>
+      <Item>EighteenToTwentyFour</Item>
+    </GoFlightTimeRangeList>
+    <BackFlightTimeRangeList>
+      <Item>SixToTwelve</Item>
+      <Item>TwelveToEighteen</Item>
+      <Item>EighteenToTwentyFour</Item>
+    </BackFlightTimeRangeList>
+  </MessageBody>
+</LowPricePolicyRoundTripListRequest>

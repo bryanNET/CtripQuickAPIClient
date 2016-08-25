@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleRestrictSearchResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:common:CommonData:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2015-02-06T11:37:25.3383726+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <RcList>
+      <Rc>
+        <ID>8764</ID>
+        <Name>0QuickAPI</Name>
+        <FeeBasis>S</FeeBasis>
+        <RefundRateRemarks>20-2-50</RefundRateRemarks>
+        <MinFeeExpense>5.0000</MinFeeExpense>
+        <RefundExpense>0</RefundExpense>
+        <ReroutRateRemarks>5-2-10-0-22</ReroutRateRemarks>
+        <ChargeRule>0</ChargeRule>
+        <ReroutExpense>0</ReroutExpense>
+        <IsEndorse>T</IsEndorse>
+        <IsUpgrade>T</IsUpgrade>
+        <NumCarryRule xsi:nil="true" />
+        <Remarks>QuickAPI-Rule^</Remarks>
+        <HasAssignEntry>F</HasAssignEntry>
+      </Rc>
+    </RcList>
+  </TradeResult>
+</RuleRestrictSearchResponse>

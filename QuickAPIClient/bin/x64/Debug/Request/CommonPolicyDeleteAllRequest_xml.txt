@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<CommonPolicyDeleteAllRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>111</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">9b660c47-33f6-4ead-bae7-b284c4a9a790</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+	<PolicySource>QuickAPI</PolicySource>
+  </MessageBody>
+</CommonPolicyDeleteAllRequest>
+
+
+<!--public enum PolicySource 
+{ 
+All = 0, 所有
+API, OpenAPI
+Input, 手工录入
+Platform, excel
+Refund, 退费转
+Vocation, 度假
+QuickAPI quicakpi
+}-->

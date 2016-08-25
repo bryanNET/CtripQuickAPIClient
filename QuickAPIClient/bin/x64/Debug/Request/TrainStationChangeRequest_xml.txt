@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<TrainStationChangeRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:trainstation:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>yuyingwu</UserName>
+      <Password>49A0293F089944DAEA2E044149C1010F</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">2</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">180e6a7f-a285-4830-a7d8-37097e84bdb3</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <TrainStationList>
+      <TrainStation>
+        <StationID>1</StationID>
+        <StationName>阿拉山</StationName>
+        <CityCode>AAV</CityCode>
+      </TrainStation>
+    </TrainStationList>
+  </MessageBody>
+</TrainStationChangeRequest>

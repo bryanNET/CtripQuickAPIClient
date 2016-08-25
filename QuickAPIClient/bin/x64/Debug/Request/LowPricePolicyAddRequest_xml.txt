@@ -1,0 +1,47 @@
+﻿1、SPECIALPOLICY 请求报文
+<?xml version="1.0"?>
+<LowPricePolicyAddRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">7fe4d256-18b2-49b8-8f70-7a7cae11072c</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyIDList>
+      <Policy>
+        <PolicyID>2652691643</PolicyID>
+        <TypeResult>true</TypeResult>
+        <TradePolicyType>SPECIALPOLICY</TradePolicyType>
+        <DecreasePrice>12</DecreasePrice>
+        <CostPrice>300</CostPrice>
+      </Policy>
+    </PolicyIDList>
+  </MessageBody>
+</LowPricePolicyAddRequest>
+
+2、RAWPOLICY 请求报文
+<?xml version="1.0"?>
+<LowPricePolicyAddRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">7fe4d256-18b2-49b8-8f70-7a7cae11072c</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyIDList>
+      <Policy>
+        <PolicyID>800507</PolicyID>
+        <TypeResult>true</TypeResult>
+        <TradePolicyType>RAWPOLICY</TradePolicyType>
+        <DecreasePrice>12</DecreasePrice>
+        <CostPrice>300</CostPrice>
+      </Policy>
+    </PolicyIDList>
+  </MessageBody>
+</LowPricePolicyAddRequest>

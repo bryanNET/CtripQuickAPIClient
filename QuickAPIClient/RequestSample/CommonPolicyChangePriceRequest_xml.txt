@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<CommonPolicyChangePriceRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>内部测试</UserName>
+      <Password>1BDCD7C9C1C31419D384C6BC369CF746</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">3b15c7b0-2890-4e3b-94b3-257270391b29</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyList>
+      <Policy>
+        <PolicyCode>Gen-code01</PolicyCode>
+        <IsValid>T</IsValid>
+        <PriceUnit>
+          <HasAssignPrice xsi:nil="true" />
+          <MinPrintPrice>0</MinPrintPrice>
+          <MaxPrintPrice>0</MaxPrintPrice>
+          <ReturnPrice>800</ReturnPrice>
+          <ReturnPoint>5.000</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>18952</PolicyID>
+        <IsValid>T</IsValid>
+        <PriceUnit>
+          <HasAssignPrice xsi:nil="true" />
+          <MinPrintPrice>0</MinPrintPrice>
+          <MaxPrintPrice>0</MaxPrintPrice>
+          <ReturnPrice>500</ReturnPrice>
+          <ReturnPoint>0.000</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+    </PolicyList>
+  </MessageBody>
+</CommonPolicyChangePriceRequest>

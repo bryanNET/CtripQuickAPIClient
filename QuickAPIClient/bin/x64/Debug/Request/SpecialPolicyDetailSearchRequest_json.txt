@@ -1,0 +1,1 @@
+﻿{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"PolicyIDList":[17311874,129582970,17311913,237939086]}}

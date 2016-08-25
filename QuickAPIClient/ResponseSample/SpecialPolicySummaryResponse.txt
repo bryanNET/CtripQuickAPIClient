@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialPolicySummaryResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-08-05T13:28:23.5188163+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+    <Extension xmlns="http://soa.ctrip.com/common/types/v1">
+      <Id>CLOGGING_TRACE_ID</Id>
+      <Value>2412023740977151087</Value>
+    </Extension>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <SearchResult>
+      <TotalCount>4</TotalCount>
+      <PolicyList>
+        <Policy>
+          <PolicyID>2654560101</PolicyID>
+          <PolicyCode />
+          <PolicySource>Input</PolicySource>
+          <FlightWay>S</FlightWay>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>TAO</ArrivePort>
+          <AirLine>9C</AirLine>
+          <InventoryType>FIX</InventoryType>
+          <Inventory>100</Inventory>
+          <LeftInventory>100</LeftInventory>
+          <EffectDate>2014-08-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-12-31T00:00:00</ExpiryDate>
+          <AdvanceDay>0</AdvanceDay>
+          <MaxAdvanceDay>365</MaxAdvanceDay>
+          <Class>Y</Class>
+          <PublishDate>2014-08-01T16:42:13</PublishDate>
+          <IsValid>T</IsValid>
+          <GoFlighteffectDate>2014-08-01T00:00:00</GoFlighteffectDate>
+          <GoFlightexpiryDate>2014-12-31T00:00:00</GoFlightexpiryDate>
+          <ProductType>ZZQC</ProductType>
+          <CertificateType />
+          <PayType />
+          <PayCardType />
+          <ApplyChild>F</ApplyChild>
+          <ReturnPoint>33.33</ReturnPoint>
+          <ReturnPrice>0</ReturnPrice>
+          <SetPrice>100</SetPrice>
+          <SalePrice>0</SalePrice>
+          <PrintPrice>150</PrintPrice>
+          <GoSubClass>Y</GoSubClass>
+          <IsSecurity>F</IsSecurity>
+          <ApplyFlag>NA</ApplyFlag>
+        </Policy>
+        <Policy>
+          <PolicyID>2654560021</PolicyID>
+          <PolicyCode />
+          <PolicySource>Input</PolicySource>
+          <FlightWay>S</FlightWay>
+          <DepartPort>KMG</DepartPort>
+          <ArrivePort>WUH</ArrivePort>
+          <AirLine>MU</AirLine>
+          <InventoryType>FAV</InventoryType>
+          <Inventory>0</Inventory>
+          <LeftInventory>0</LeftInventory>
+          <EffectDate>2014-08-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-12-31T00:00:00</ExpiryDate>
+          <AdvanceDay>0</AdvanceDay>
+          <MaxAdvanceDay>365</MaxAdvanceDay>
+          <Class>Y</Class>
+          <PublishDate>2014-08-01T15:16:00</PublishDate>
+          <IsValid>T</IsValid>
+          <GoFlighteffectDate>2014-08-01T00:00:00</GoFlighteffectDate>
+          <GoFlightexpiryDate>2014-12-31T00:00:00</GoFlightexpiryDate>
+          <ProductType>NFD</ProductType>
+          <CertificateType />
+          <PayType />
+          <PayCardType />
+          <ApplyChild>F</ApplyChild>
+          <ReturnPoint>0</ReturnPoint>
+          <ReturnPrice>0</ReturnPrice>
+          <SetPrice>300</SetPrice>
+          <SalePrice>0</SalePrice>
+          <PrintPrice>0</PrintPrice>
+          <GoSubClass>Y</GoSubClass>
+          <IsSecurity>F</IsSecurity>
+          <ApplyFlag>NA</ApplyFlag>
+        </Policy>
+        <Policy>
+          <PolicyID>2652691810</PolicyID>
+          <PolicyCode>勿动~HH~多人专享~组合价格</PolicyCode>
+          <PolicySource>Input</PolicySource>
+          <FlightWay>S</FlightWay>
+          <DepartPort>WUH</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <AirLine>ZH</AirLine>
+          <InventoryType>FIX</InventoryType>
+          <Inventory>100</Inventory>
+          <LeftInventory>97</LeftInventory>
+          <EffectDate>2014-07-28T00:00:00</EffectDate>
+          <ExpiryDate>2014-12-31T00:00:00</ExpiryDate>
+          <AdvanceDay>0</AdvanceDay>
+          <MaxAdvanceDay>365</MaxAdvanceDay>
+          <Class>Y</Class>
+          <PublishDate>2014-07-28T18:47:43</PublishDate>
+          <IsValid>T</IsValid>
+          <GoFlighteffectDate>2014-07-28T00:00:00</GoFlighteffectDate>
+          <GoFlightexpiryDate>2014-12-31T00:00:00</GoFlightexpiryDate>
+          <ProductType>NFD</ProductType>
+          <CertificateType />
+          <PayType />
+          <PayCardType />
+          <ApplyChild>T</ApplyChild>
+          <ReturnPoint>25.00</ReturnPoint>
+          <ReturnPrice>0</ReturnPrice>
+          <SetPrice>375</SetPrice>
+          <SalePrice>0</SalePrice>
+          <PrintPrice>500</PrintPrice>
+          <GoSubClass>Y</GoSubClass>
+          <IsSecurity>F</IsSecurity>
+          <ApplyFlag>NA</ApplyFlag>
+        </Policy>
+        <Policy>
+          <PolicyID>2652691809</PolicyID>
+          <PolicyCode>勿动~HH~多人专享~单人价格</PolicyCode>
+          <PolicySource>Input</PolicySource>
+          <FlightWay>S</FlightWay>
+          <DepartPort>WUH</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <AirLine>MU</AirLine>
+          <InventoryType>FIX</InventoryType>
+          <Inventory>100</Inventory>
+          <LeftInventory>95</LeftInventory>
+          <EffectDate>2014-07-28T00:00:00</EffectDate>
+          <ExpiryDate>2014-12-31T00:00:00</ExpiryDate>
+          <AdvanceDay>0</AdvanceDay>
+          <MaxAdvanceDay>365</MaxAdvanceDay>
+          <Class>Y</Class>
+          <PublishDate>2014-07-28T18:44:54</PublishDate>
+          <IsValid>T</IsValid>
+          <GoFlighteffectDate>2014-07-28T00:00:00</GoFlighteffectDate>
+          <GoFlightexpiryDate>2014-12-31T00:00:00</GoFlightexpiryDate>
+          <ProductType>NFD</ProductType>
+          <CertificateType />
+          <PayType />
+          <PayCardType />
+          <ApplyChild>T</ApplyChild>
+          <ReturnPoint>0</ReturnPoint>
+          <ReturnPrice>0</ReturnPrice>
+          <SetPrice>500</SetPrice>
+          <SalePrice>500</SalePrice>
+          <PrintPrice>500</PrintPrice>
+          <GoSubClass>Y</GoSubClass>
+          <IsSecurity>F</IsSecurity>
+          <ApplyFlag>NA</ApplyFlag>
+        </Policy>
+      </PolicyList>
+    </SearchResult>
+  </TradeResult>
+</SpecialPolicySummaryResponse>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<WorkDayAddRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:workingTime:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>111</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">9c25ebb3-441a-4130-8acd-92a9c1f992b1</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <WorkDayList>
+      <WorkDay>
+        <Supplier>671</Supplier>
+        <WorkDate>2014-08-08T00:00:00+08:00</WorkDate>
+        <Week>Friday</Week>
+        <IsWorkDay>false</IsWorkDay>
+        <WorkDayID>0</WorkDayID>
+      </WorkDay>
+      <WorkDay>
+        <Supplier>671</Supplier>
+        <WorkDate>2014-08-09T00:00:00+08:00</WorkDate>
+        <Week>Saturday</Week>
+        <IsWorkDay>false</IsWorkDay>
+        <WorkDayID>0</WorkDayID>
+      </WorkDay>
+      <WorkDay>
+        <Supplier>671</Supplier>
+        <WorkDate>2014-08-10T00:00:00+08:00</WorkDate>
+        <Week>Sunday</Week>
+        <IsWorkDay>false</IsWorkDay>
+        <WorkDayID>0</WorkDayID>
+      </WorkDay>
+      <WorkDay>
+        <Supplier>671</Supplier>
+        <WorkDate>2014-08-11T00:00:00+08:00</WorkDate>
+        <Week>Monday</Week>
+        <IsWorkDay>false</IsWorkDay>
+        <WorkDayID>0</WorkDayID>
+      </WorkDay>
+      <WorkDay>
+        <Supplier>671</Supplier>
+        <WorkDate>2014-08-12T00:00:00+08:00</WorkDate>
+        <Week>Tuesday</Week>
+        <IsWorkDay>false</IsWorkDay>
+        <WorkDayID>0</WorkDayID>
+      </WorkDay>
+    </WorkDayList>
+  </MessageBody>
+</WorkDayAddRequest>

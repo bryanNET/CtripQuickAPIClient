@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FdPolicySummaryRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:FdPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>String</UserName>
+      <Password>String</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">String</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>0</PageSize>
+    <SearchType>ByID</SearchType>
+    <FdPolicyIdList>
+      <FdPolicyId>0</FdPolicyId>
+    </FdPolicyIdList>
+    <SearchCondition>
+      <FlightWay>S</FlightWay>
+      <DepartEffectDate>0001-01-01T00:00:00</DepartEffectDate>
+      <DepartExpiryDate>0001-01-01T00:00:00</DepartExpiryDate>
+      <SaleEffectDate>0001-01-01T00:00:00</SaleEffectDate>
+      <SaleExpiryDate>0001-01-01T00:00:00</SaleExpiryDate>
+      <Airline>String</Airline>
+      <PassengerType>All</PassengerType>
+      <Dcity>String</Dcity>
+      <Acity>String</Acity>
+      <RcId>0</RcId>
+      <SubClass>String</SubClass>
+    </SearchCondition>
+  </MessageBody>
+</FdPolicySummaryRequest>

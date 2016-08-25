@@ -1,0 +1,939 @@
+﻿<?xml version="1.0"?>
+<BaseRuleRestrictFDImportRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:common:ICommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>57DD03ED397EABAEAA395EB740B770FD</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <BaseRuleRestrictList>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>Y</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0-2-5</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">F</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>B</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>M</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>E</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>H</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>K</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>L</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>N</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>R</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>S</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40-168-80-2-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-2-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-22T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-22T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>V</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40-168-80-2-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-2-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>Y</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-0-10</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0-0-5</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">F</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>B</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>M</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>M1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>H</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>H1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>K</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>K1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>L</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>L1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>Q</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>Q1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-0-20</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>G</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">50-0-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-0-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>V</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">50-0-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-0-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>CA</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-03-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-03-01T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>V1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">50-0-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-0-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>Y</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0-2-5</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">F</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>B</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0-2-5</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>H</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0-2-5</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>K</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0-2-5</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>K1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-2-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0-2-5</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>M</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>M1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>L</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>L1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>N</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>N1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>Q</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>Q4</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>X</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>X1</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">25-2-35</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5-2-10</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>E</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-15</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>U</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-15</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>BK</AirLine>
+          <DCity />
+          <ACity />
+          <FlightEffectDate>2013-07-03T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2020-12-31T00:00:00</FlightExpiryDate>
+          <SaleEffectDate>2013-07-03T00:00:00</SaleEffectDate>
+          <SaleExpiryDate>2020-12-31T00:00:00</SaleExpiryDate>
+          <Discount xsi:nil="true" />
+          <SubClass>T</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-0-30</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-15</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+    </BaseRuleRestrictList>
+  </MessageBody>
+</BaseRuleRestrictFDImportRequest>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<CommonPolicyHistoryLogRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:common:ICommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>111111</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">d598fe41-0db7-46d0-9ce9-e670ec6010ae</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyID>2502979260</PolicyID>
+    <LogType>CommonPolicy</LogType>
+  </MessageBody>
+</CommonPolicyHistoryLogRequest>

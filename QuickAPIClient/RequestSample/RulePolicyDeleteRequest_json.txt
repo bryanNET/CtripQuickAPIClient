@@ -1,0 +1,43 @@
+﻿1. ByID:
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "ypcao",
+      "Password": "DF6B369D981E6F39393255E6ECE51D72"
+    },
+    "ClientID": 2,
+    "RequestGUID": "29c39448-d349-4922-bbc8-41414b91bc94"
+  },
+  "MessageBody": {
+    "PolicySource": null,
+    "DeleteType": 0,
+    "PolicyIDList": [
+      500158,
+      500159
+    ],
+    "PolicyCodeList": [],
+    "IsFuzzyMatch": null
+  }
+}
+
+2. ByCode
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "ypcao",
+      "Password": "DF6B369D981E6F39393255E6ECE51D72"
+    },
+    "ClientID": 2,
+    "RequestGUID": "55925a6b-f07e-4c74-bf93-38544942a217"
+  },
+  "MessageBody": {
+    "PolicySource": null,
+    "DeleteType": 1,
+    "PolicyIDList": [],
+    "PolicyCodeList": [
+      "ll0001",
+      "ll0002"
+    ],
+    "IsFuzzyMatch": 1
+  }
+}

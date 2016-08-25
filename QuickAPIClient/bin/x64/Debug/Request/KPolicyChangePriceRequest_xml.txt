@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<KPolicyChangePriceRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>DF6B369D981E6F39393255E6ECE51D72</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">8a9e6273-0c9f-4aa7-a9a6-bcbd45f854d1</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyList>
+      <Policy>
+        <PolicyID>13149</PolicyID>
+        <PriceUnit>
+          <ReturnPrice>800</ReturnPrice>
+          <ReturnPoint>10</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>13150</PolicyID>
+        <PriceUnit>
+          <ReturnPrice>900</ReturnPrice>
+          <ReturnPoint>11</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>13151</PolicyID>
+        <PriceUnit>
+          <ReturnPrice>1000</ReturnPrice>
+          <ReturnPoint>12</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+    </PolicyList>
+  </MessageBody>
+</KPolicyChangePriceRequest>

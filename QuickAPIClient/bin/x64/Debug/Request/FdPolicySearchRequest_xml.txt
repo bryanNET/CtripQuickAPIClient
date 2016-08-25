@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<FdPolicySearchRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:common:CommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ea3e11ad-f95a-44d6-8280-65895c19ssss</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <DepartEffectDate>2015-10-20</DepartEffectDate>
+    <DepartExpiryDate>2015-10-30</DepartExpiryDate>
+    <FlightWay>S</FlightWay>
+    <Class>F</Class>
+    <SubClass>T</SubClass>
+    <Airline>CZ</Airline>
+    <DCityACityList>
+      <DCityACity>
+        <DCity>CAN</DCity>
+        <ACity>TXN</ACity>
+      </DCityACity>
+    </DCityACityList>
+  </MessageBody>
+</FdPolicySearchRequest>

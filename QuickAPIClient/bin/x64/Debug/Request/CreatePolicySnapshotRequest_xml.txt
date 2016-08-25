@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<CreatePolicySnapshotRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:common:ICommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">99dc6610-4f3d-40c0-a768-9bd8bfb3b810</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <Snapshot>
+      <PolicyID>2651148220</PolicyID>
+      <PolicyType>1</PolicyType>
+      <OrderID>654321</OrderID>
+    </Snapshot>
+  </MessageBody>
+</CreatePolicySnapshotRequest>

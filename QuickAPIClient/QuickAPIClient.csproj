@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A8A0745-68F1-4A03-9F5E-106551BFDD42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Flight.Trade.TradeQuickAPI.Client</RootNamespace>
+    <AssemblyName>QuickAPIClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\QuickAPIClient.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\QuickAPIClient.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>148.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CServiceStack.Mega, Version=2.0.3.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\CServiceStack.Mega.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\RequestHelper.cs" />
+    <Compile Include="Gzip.cs" />
+    <Compile Include="Utils\AssemblyExtensions.cs" />
+    <Compile Include="Utils\DefaultObjectPropertySetter.cs" />
+    <Compile Include="Utils\FlightObjectPropertySetter.cs" />
+    <Compile Include="Utils\IObjectSetter.cs" />
+    <Compile Include="Utils\MD5Helper.cs" />
+    <Compile Include="Utils\ObjectExtension.cs" />
+    <Compile Include="QuickAPIClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickAPIClient.Designer.cs">
+      <DependentUpon>QuickAPIClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\TypeExtensions.cs" />
+    <Compile Include="Utils\MessageFormatType.cs" />
+    <EmbeddedResource Include="QuickAPIClient.resx">
+      <DependentUpon>QuickAPIClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="148.ico" />
+    <Content Include="dll\CServiceStack.Mega.dll" />
+    <Content Include="dll\Newtonsoft.Json.dll" />
+    <Content Include="plugin\Ctrip.Flight.TradeCommon.SOAService_default.dll" />
+    <Content Include="RequestSample\AbnormalCommonPolicySummaryRequest_json.txt" />
+    <Content Include="RequestSample\AbnormalCommonPolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\AbnormalKPolicySummaryRequest_json.txt" />
+    <Content Include="RequestSample\AbnormalKPolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\AbnormalRulePolicySummaryRequest_json.txt" />
+    <Content Include="RequestSample\AbnormalRulePolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\AbnormalSpecialPolicySummaryRequest_json.txt" />
+    <Content Include="RequestSample\AbnormalSpecialPolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\BaseRuleRestrictFDImportRequest_xml.txt" />
+    <Content Include="RequestSample\BaseRuleRestrictImportRequest_xml.txt" />
+    <Content Include="RequestSample\BaseRuleRestrictNFDImportRequest_xml.txt" />
+    <Content Include="RequestSample\BatchNoListRequest_xml.txt" />
+    <Content Include="RequestSample\ComboRateRuleAddRequest_xml.txt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestSample\ComboRateRuleChangeRequest_xml.txt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestSample\CommonPolicyAddRequest_json.txt" />
+    <Content Include="RequestSample\CommonPolicyAddRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyAflSearchRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyBatchChangeRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyChangePriceRequest_json.txt" />
+    <Content Include="RequestSample\CommonPolicyChangePriceRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyChangeRequest_json.txt" />
+    <Content Include="RequestSample\CommonPolicyChangeRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyDeleteAllRequest_json.txt" />
+    <Content Include="RequestSample\CommonPolicyDeleteAllRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyDeleteRequest_json.txt" />
+    <Content Include="RequestSample\CommonPolicyDeleteRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyDetailSearchRequest_json.txt" />
+    <Content Include="RequestSample\CommonPolicyDetailSearchRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyHistoryLogRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyIDListRequest_json.txt" />
+    <Content Include="RequestSample\CommonPolicyIDListRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicySummaryRequest_json.txt" />
+    <Content Include="RequestSample\CommonPolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\CommonPolicyTbListRequest_xml.txt" />
+    <Content Include="RequestSample\FdPolicyAddRequest_xml.txt" />
+    <Content Include="RequestSample\FdPolicyChangeRequest_xml.txt" />
+    <Content Include="RequestSample\FdPolicyDeleteRequest_xml.txt" />
+    <Content Include="RequestSample\FdPolicyDetailRequest_xml.txt" />
+    <Content Include="RequestSample\FdPolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyAddRequest_json.txt" />
+    <Content Include="RequestSample\KPolicyBatchChangeRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyChangePriceRequest_json.txt" />
+    <Content Include="RequestSample\KPolicyChangeRequest_json.txt" />
+    <Content Include="RequestSample\KPolicyDeleteAllRequest_json.txt" />
+    <Content Include="RequestSample\KPolicyDeleteRequest_json.txt" />
+    <Content Include="RequestSample\KPolicyDetailSearchRequest_json.txt" />
+    <Content Include="RequestSample\KPolicyIDListRequest_json.txt" />
+    <Content Include="RequestSample\KPolicySummaryRequest_json.txt" />
+    <Content Include="RequestSample\RulePolicyAddRequest_json.txt" />
+    <Content Include="RequestSample\RulePolicyAddRequest_xml.txt" />
+    <Content Include="RequestSample\RulePolicyChangeRequest_xml.txt" />
+    <Content Include="RequestSample\RulePolicyDeleteRequest_xml.txt" />
+    <Content Include="RequestSample\CreatePolicySnapshotRequest_xml.txt" />
+    <Content Include="RequestSample\DynamicRateRuleAddRequest_xml.txt" />
+    <Content Include="RequestSample\DynamicRateRuleChangeRequest_xml.txt" />
+    <Content Include="RequestSample\DynamicRateRuleDeleteRequest_xml.txt" />
+    <Content Include="RequestSample\DynamicRateRuleSearchRequest_xml.txt" />
+    <Content Include="RequestSample\FlightAgencyListRequest_xml.txt" />
+    <Content Include="RequestSample\GetSepcialPolicyByIDRequest_xml.txt" />
+    <Content Include="RequestSample\IDCardTypeListRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyAddRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyBatchChangeValidRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyChangePriceRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyChangeRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyDeleteAllRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyDeleteRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyDetailSearchRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicyIDListRequest_xml.txt" />
+    <Content Include="RequestSample\KPolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\LowPricePolicyAddRequest_json.txt" />
+    <Content Include="RequestSample\LowPricePolicyAddRequest_xml.txt" />
+    <Content Include="RequestSample\LowPricePolicyListRequest_json.txt" />
+    <Content Include="RequestSample\LowPricePolicyListRequest_xml.txt" />
+    <Content Include="RequestSample\PayCardTypeListRequest_xml.txt" />
+    <Content Include="RequestSample\PolicyHistoryLogRequest_xml.txt" />
+    <Content Include="RequestSample\PolicyPataFailRequest_xml.txt" />
+    <Content Include="RequestSample\PrePayTypeListRequest_xml.txt" />
+    <Content Include="RequestSample\ProductTypeListRequest_xml.txt" />
+    <Content Include="RequestSample\RuleCalcListRequest_json.txt" />
+    <Content Include="RequestSample\RuleCalcListRequest_xml.txt" />
+    <Content Include="RequestSample\RulePolicyBatchChangeValidRequest_xml.txt" />
+    <Content Include="RequestSample\RulePolicyDeleteAllRequest_json.txt" />
+    <Content Include="RequestSample\RulePolicyDeleteAllRequest_xml.txt" />
+    <Content Include="RequestSample\RulePolicyIDListRequest_json.txt" />
+    <Content Include="RequestSample\RulePolicyIDListRequest_xml.txt" />
+    <Content Include="RequestSample\RulePolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\RuleRestrictAddRequest_xml.txt" />
+    <Content Include="RequestSample\RuleRestrictListRequest_json.txt" />
+    <Content Include="RequestSample\RuleRestrictListRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyAddRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicyAddRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyBatchChangeRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicyBatchChangeRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyChangePriceRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicyChangePriceRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyChangeRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicyChangeRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyDeleteAllRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicyDeleteAllRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyDeleteRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicyDeleteRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyDetailSearchRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicyDetailSearchRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyHistoryLogRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicyIDListRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicyIDListRequest_xml.txt" />
+    <Content Include="RequestSample\SpecialPolicySummaryRequest_json.txt" />
+    <Content Include="RequestSample\SpecialPolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\SupplierCityListRequest_xml.txt" />
+    <Content Include="RequestSample\TradeFeatureConfigSummaryRequest_xml.txt" />
+    <Content Include="RequestSample\TradeFeatureConfigDeleteRequest_xml.txt" />
+    <Content Include="RequestSample\TradeFeatureConfigAddRequest_xml.txt" />
+    <Content Include="RequestSample\TradeFeatureConfigModifyRequest_xml .txt" />
+    <Content Include="RequestSample\TrainStationAddRequest_xml.txt" />
+    <Content Include="RequestSample\TrainStationChangeRequest_xml.txt" />
+    <Content Include="RequestSample\TrainStationDeleteRequest_xml.txt" />
+    <Content Include="RequestSample\TrainStationListRequest_xml.txt" />
+    <Content Include="RequestSample\TransitPolicySummaryRequest_json.txt" />
+    <Content Include="RequestSample\TransitPolicySummaryRequest_xml.txt" />
+    <Content Include="RequestSample\ValidatePriceRequest_xml.txt" />
+    <Content Include="RequestSample\WorkDayAddRequest_xml.txt" />
+    <Content Include="RequestSample\WorkDayChangeRequest_xml.txt" />
+    <Content Include="RequestSample\WorkDayListRequest_json.txt" />
+    <Content Include="RequestSample\WorkDayListRequest_xml.txt" />
+    <Content Include="ResponseSample\AbnormalPolicySummaryResponse.txt" />
+    <Content Include="ResponseSample\CommonPolicyAddResponse.txt" />
+    <Content Include="ResponseSample\CommonPolicyChangePriceResponse.txt" />
+    <Content Include="ResponseSample\CommonPolicyChangeResponse.txt" />
+    <Content Include="ResponseSample\CommonPolicyDeleteAllResponse.txt" />
+    <Content Include="ResponseSample\CommonPolicyDeleteResponse.txt" />
+    <Content Include="ResponseSample\CommonPolicyDetailSearchResponse.txt" />
+    <Content Include="ResponseSample\CommonPolicyIDListResponse.txt" />
+    <Content Include="ResponseSample\CommonPolicySummaryResponse.txt" />
+    <Content Include="ResponseSample\KPolicyAddResponse.txt" />
+    <Content Include="ResponseSample\KPolicyChangeResponse.txt" />
+    <Content Include="ResponseSample\KPolicyDeleteAllResponse.txt" />
+    <Content Include="ResponseSample\KPolicyDeleteResponse.txt" />
+    <Content Include="ResponseSample\KPolicyDetailSearch.txt" />
+    <Content Include="ResponseSample\KPolicyIDList.txt" />
+    <Content Include="ResponseSample\KPolicySummary.txt" />
+    <Content Include="ResponseSample\LowPricePolicyAddResponse.txt" />
+    <Content Include="ResponseSample\LowPricePolicyListResponse.txt" />
+    <Content Include="ResponseSample\RuleCalcListResponse.txt" />
+    <Content Include="ResponseSample\RuleRestrictListResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicyAddResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicyBatchChangeResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicyChangePriceResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicyChangeResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicyDeleteAllResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicyDeleteResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicyDetailSearchResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicyIDListResponse.txt" />
+    <Content Include="ResponseSample\SpecialPolicySummaryResponse.txt" />
+    <Content Include="ResponseSample\WorkDayListResponse.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>xcopy ..\..\..\RequestSample Request\ /Y
+xcopy ..\..\..\plugin plugin\ /Y</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

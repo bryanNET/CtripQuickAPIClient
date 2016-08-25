@@ -1,0 +1,46 @@
+﻿1、SPECIALPOLICY 请求报文
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "3ad896dd-0aea-400d-97df-c95b2428537c"
+  },
+  "MessageBody": {
+    "PolicyIDList": [
+      {
+        "PolicyID": 2684217723,
+        "TypeResult": "true",
+        "TradePolicyType": "SPECIALPOLICY",
+        "DecreasePrice": 12.0,
+        "CostPrice": 300.0
+      }
+    ]
+  }
+}
+
+2、RAWPOLICY 请求报文
+
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "f0af493c-60bc-4ad0-b946-4fb38cc32b6f"
+  },
+  "MessageBody": {
+    "PolicyIDList": [
+      {
+        "PolicyID": 800507,
+        "TypeResult": "true",
+        "TradePolicyType": "RAWPOLICY",
+        "DecreasePrice": 12.0,
+        "CostPrice": 300.0
+      }
+    ]
+  }
+}

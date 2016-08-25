@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AbnormalRawPolicySummaryResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:AbnormalPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2015-03-02T11:46:01.7060517+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <SearchResult>
+      <TotalCount>1</TotalCount>
+      <PolicyList>
+        <Policy>
+          <PolicyID>2513369732</PolicyID>
+          <FlightWay>D</FlightWay>
+          <IsBooking>T</IsBooking>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>CAN</ArrivePort>
+          <AirLine>MU</AirLine>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <GoFlighteffectDate>2014-07-01T00:00:00</GoFlighteffectDate>
+          <GoFlightexpiryDate>2014-07-30T00:00:00</GoFlightexpiryDate>
+          <GoSubClass>M</GoSubClass>
+          <BackSubClass>M</BackSubClass>
+          <InventoryType>FAV</InventoryType>
+          <Inventory>0</Inventory>
+          <LeftInventory>0</LeftInventory>
+          <PrintPrice xsi:nil="true" />
+          <SetPrice xsi:nil="true" />
+          <ReturnPoint>40.00</ReturnPoint>
+          <ReturnPrice>1.0000</ReturnPrice>
+          <AbnormalType>ABNORMAL_UNKNOW_POLICY</AbnormalType>
+          <AbnormalDescription>其他异常</AbnormalDescription>
+        </Policy>
+      </PolicyList>
+    </SearchResult>
+  </TradeResult>
+</AbnormalRawPolicySummaryResponse>

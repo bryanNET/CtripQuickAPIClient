@@ -1,0 +1,84 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 4,
+    "RequestGUID": "ea3e11ad-f95a-44d6-8280-65895c19aaaa"
+  },
+  "MessageBody": {
+    "PolicyList": [
+      {
+        "PolicyID": 0,
+        "SummaryUnit": {
+          "PolicyCode": "GEN1937",
+          "RestrictRuleID": null,
+          "AirLine": "CA",
+          "DepartPort": "PVG",
+          "ArrivePort": "PEK",
+          "AllowSaleEffectDate": "2014-10-01T00:00:00",
+          "AllowSaleExpiryDate": "2014-10-31T00:00:00",
+          "ForbidSaleEffectDate": "2014-10-15T00:00:00",
+          "ForbidSaleExpiryDate": "2014-10-20T00:00:00",
+          "SaleTimeLimit": "0900-1200,1300-1800",
+          "MinAdvanceDay": 14,
+          "MaxAdvanceDay": 91,
+          "BatchNo": null,
+          "OfficeNo": null,
+          "IsValid": 0,
+          "IsApplyChild": null,
+          "IsAutoTicket": null,
+          "IsEarnPoint": null,
+          "IsShareCode": null,
+          "TicketRemark": null,
+          "PassengerNum": null,
+          "PassengerAge": null,
+          "VoucherType": null,
+          "KSupplier": null,
+          "KSupplierName": null,
+          "TicketCity": null
+        },
+        "DiscountUnit": {
+          "SubClassKType": 0,
+          "SubClassFixK": "M1",
+          "SubClassMinK": "",
+          "DownwardRate": 0.0,
+          "SubClassSpanK": 0,
+          "KWorkTime": "1234567/0800-2000",
+          "KWorkMode": 1
+        },
+        "FlightUnit": {
+          "AllowSaleRule": "1858,1860-1880",
+          "ForbidSaleRule": "1862-1864,1870",
+          "FlightEffectDate": "2014-10-01T00:00:00",
+          "FlightExpiryDate": "2014-12-31T00:00:00",
+          "FlightDay": "1234567",
+          "FlightTime": "0000-0600,0800-1400,1600-2359"
+        },
+        "InventoryUnit": {
+          "InventoryList": [
+            {
+              "FlightNo": "1858",
+              "FlightDate": "2014-10-02T00:00:00",
+              "InventoryTotal": 12,
+              "InventorySaled": null
+            },
+            {
+              "FlightNo": "1871",
+              "FlightDate": "2014-10-02T00:00:00",
+              "InventoryTotal": 24,
+              "InventorySaled": null
+            }
+          ]
+        },
+        "RestrictionUnit": null,
+        "PriceUnit": {
+          "ReturnPrice": 10.00,
+          "ReturnPoint": 5.00
+        },
+        "ConditionUnit": null
+      }
+    ]
+  }
+}

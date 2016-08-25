@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<SpecialPolicyChangePriceRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">4</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9093</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <PolicyList>
+      <Policy>
+        <PolicyCode>GEN-10:05-0</PolicyCode>
+        <IsValid>T</IsValid>
+        <PriceUnit>
+          <PrintPrice>1000</PrintPrice>
+          <SalePrice>1000</SalePrice>
+          <SetPrice>900</SetPrice>
+          <ReturnPrice>0</ReturnPrice>
+          <ReturnPoint>10.0</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>4078940730</PolicyID>
+        <IsValid>T</IsValid>
+        <PriceUnit>
+          <PrintPrice>1000</PrintPrice>
+          <SalePrice>1000</SalePrice>
+          <SetPrice>850</SetPrice>
+          <ReturnPrice>0</ReturnPrice>
+          <ReturnPoint>15.00</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+    </PolicyList>
+  </MessageBody>
+</SpecialPolicyChangePriceRequest>
+<!--可通过PolicyCode或PolicyID进行修改，这两节点二选一。一个请求可混合有PolicyID和PolicyCode-->

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<TrainStationAddRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:trainstation:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName />
+      <Password />
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">6</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </MessageHead>
+  <MessageBody>
+    <TrainStationList>
+      <TrainStation>
+        <StationID>1</StationID>
+        <StationName>阿拉山口</StationName>
+        <CityCode>AAV</CityCode>
+      </TrainStation>
+      <TrainStation>
+        <StationID>2</StationID>
+        <StationName>兴义</StationName>
+        <CityCode>ACX</CityCode>
+      </TrainStation>
+      <TrainStation>
+        <StationID>3</StationID>
+        <StationName>百色</StationName>
+        <CityCode>AEB</CityCode>
+      </TrainStation>
+      <TrainStation>
+        <StationID>4</StationID>
+        <StationName>安康</StationName>
+        <CityCode>AKA</CityCode>
+      </TrainStation>
+    </TrainStationList>
+  </MessageBody>
+</TrainStationAddRequest>

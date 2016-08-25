@@ -1,0 +1,8 @@
+﻿1. ByCondition-All
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":1,"PageSize":1000,"SearchType":1,"PolicyIDList":[],"SearchCondition":null}}
+
+2. ByCondition
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":1,"PageSize":1000,"SearchType":1,"PolicyIDList":[],"SearchCondition":{"FlightWay":2,"AirLine":"CA","EffectDate":"2014-05-01T00:00:00","ExpiryDate":"2014-05-30T00:00:00","GoFlighteffectDate":"2014-05-01T00:00:00","GoFlightexpiryDate":"2014-05-30T00:00:00","DepartPort":"SHA","ArrivePort":"PEK","IsValid":1,"SubClass":"B","PolicyCode":"B2B"}}}
+
+3. ByID
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":1,"PageSize":1000,"SearchType":0,"PolicyIDList":[17311795,4001937242,4001937242,17311772,4000000341,4000003947,4000003948,4000003952,4078940734],"SearchCondition":null}}

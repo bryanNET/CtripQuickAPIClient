@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<DynamicRateRuleAddRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:dynamicRateRule:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">99dc6610-4f3d-40c0-a768-9bd8bfb3b810</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <DrrList>
+      <Drr>
+        <DrrID xsi:nil="true" />
+        <SummaryUnit>
+          <DrrType>GroupBuy</DrrType>
+          <DrrName>88抢购</DrrName>
+          <BatchNo>H5</BatchNo>
+          <IsValid xsi:nil="true" />
+        </SummaryUnit>
+        <SaleUnit>
+          <EffectDate>2014-07-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-07-30T00:00:00</ExpiryDate>
+          <EffectTime>0800-1000</EffectTime>
+        </SaleUnit>
+        <PriceUnit>
+          <Price>9</Price>
+          <PriceType>A</PriceType>
+        </PriceUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20-0-50</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">10-2-20-0-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+        <ProductList>
+          <Product>
+            <ID>2652482079</ID>
+            <Inventory>5</Inventory>
+          </Product>
+          <Product>
+            <ID>2652482080</ID>
+            <Inventory>10</Inventory>
+          </Product>
+        </ProductList>
+      </Drr>
+    </DrrList>
+  </MessageBody>
+</DynamicRateRuleAddRequest>

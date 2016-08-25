@@ -1,0 +1,51 @@
+1.ByID
+<?xml version="1.0" encoding="utf-8"?>
+<CommonPolicyDeleteResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-04-02T19:18:45.4265295+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <Result xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <Summary>
+        <SuccessCount>0</SuccessCount>
+        <FailedCount>5</FailedCount>
+      </Summary>
+      <SuccessList />
+      <FailedList>
+        <ID>3341</ID>
+        <ID>3346</ID>
+        <ID>3349</ID>
+        <ID>731156</ID>
+        <ID>215798777</ID>
+      </FailedList>
+    </Result>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </TradeResult>
+</CommonPolicyDeleteResponse>
+
+2.ByCode
+<?xml version="1.0" encoding="utf-8"?>
+<CommonPolicyDeleteResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-04-01T17:43:12.8946693+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <Result xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <Summary>
+        <SuccessCount>0</SuccessCount>
+        <FailedCount>5</FailedCount>
+      </Summary>
+      <SuccessList />
+      <FailedList>
+        <ID>CA123</ID>
+        <ID>100012</ID>
+        <ID>ad</ID>
+        <ID>perspiciatis</ID>
+        <ID>CA986</ID>
+      </FailedList>
+    </Result>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </TradeResult>
+</CommonPolicyDeleteResponse>

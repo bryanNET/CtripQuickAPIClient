@@ -1,0 +1,57 @@
+﻿1.DeleteByID
+<?xml version="1.0"?>
+<CommonPolicyDeleteRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">d598fe41-0db7-46d0-9ce9-e670ec6010ae</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <DeleteType>ByID</DeleteType>
+    <PolicyIDList>
+      <ID>731156</ID>
+      <ID>215798777</ID>
+      <ID>3341</ID>
+      <ID>3346</ID>
+      <ID>3349</ID>
+    </PolicyIDList>
+    <PolicyCodeList />
+    <ExternalIDList />
+    <PolicySource>All</PolicySource>
+  </MessageBody>
+</CommonPolicyDeleteRequest>
+
+2.DeleteByCode
+<?xml version="1.0"?>
+<CommonPolicyDeleteRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">d598fe41-0db7-46d0-9ce9-e670ec6010ae</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <DeleteType>ByCode</DeleteType>
+    <PolicyIDList />
+    <PolicyCodeList>
+      <Code>GEN-10:05-0</Code>
+      <Code>GEN-10:05-1</Code>
+      <Code>GEN-10:05-2</Code>
+      <Code>GEN-10:05-3</Code>
+      <Code>GEN-10:05-4</Code>
+      <Code>GEN-10:05-5</Code>
+      <Code>GEN-10:05-6</Code>
+      <Code>GEN-10:05-7</Code>
+      <Code>GEN-10:05-8</Code>
+      <Code>GEN-10:05-9</Code>
+    </PolicyCodeList>
+    <ExternalIDList />
+    <PolicySource>QuickAPI</PolicySource>
+	<IsFuzzyMatch>F</IsFuzzyMatch>
+  </MessageBody>
+</CommonPolicyDeleteRequest>

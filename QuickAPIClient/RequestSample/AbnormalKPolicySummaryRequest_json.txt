@@ -1,0 +1,79 @@
+﻿1. 异常政策K位全部 ByCondition-All
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 3,
+    "RequestGUID": "6b71d62f-1332-4f31-b17b-029a49a88d79"
+  },
+  "MessageBody": {
+    "StartIndex": 1,
+    "PageSize": 1000,
+    "SearchType": 1,
+    "SearchCondition": null
+  }
+}
+
+2. 异常政策K位 ByCondition
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 3,
+    "RequestGUID": "76c68f61-7f11-4443-9896-4daca2efe2fd"
+  },
+  "MessageBody": {
+    "StartIndex": 1,
+    "PageSize": 1000,
+    "SearchType": 1,
+    "PolicyIDList": [],
+    "SearchCondition": {
+      "FlightWay": 1,
+      "AirLine": "CA",
+      "EffectDate": "2014-11-12T00:00:00",
+      "ExpiryDate": "2015-12-31T00:00:00",
+      "GoFlighteffectDate": "2014-11-12T00:00:00",
+      "GoFlightexpiryDate": "2015-12-31T00:00:00",
+      "DepartPort": "SHA",
+      "ArrivePort": "PEK",
+      "SubClass": "V",
+      "PolicyCode": "",
+      "InventoryType": 0,
+      "AbnormalType": null
+    }
+  }
+}
+
+3. 异常政策K位 ByID
+
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "bei_zhang",
+      "Password": "69F28229FA0BB2B22E2C565C56FD9439"
+    },
+    "ClientID": 2,
+    "RequestGUID": "ee11a554-ee73-4dbf-a4ad-cbde57106397"
+  },
+  "MessageBody": {
+    "StartIndex": 1,
+    "PageSize": 1000,
+    "SearchType": 0,
+    "PolicyIDList": [
+      58501,
+      4001937242,
+      4001937242,
+      17311772,
+      4000000341,
+      4000003947,
+      4000003948,
+      4000003952,
+      4078940734
+    ],
+    "SearchCondition": null
+  }
+}

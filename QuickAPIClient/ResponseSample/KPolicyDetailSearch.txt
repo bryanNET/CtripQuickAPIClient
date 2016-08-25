@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KPolicyDetailSearchResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-10-27T11:24:35.3041214+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <PolicyList>
+      <Policy>
+        <PolicyID>16548</PolicyID>
+        <SummaryUnit>
+          <PolicyCode>GEN1937</PolicyCode>
+          <RestrictRuleID>0</RestrictRuleID>
+          <AirLine>CA</AirLine>
+          <DepartPort>PVG</DepartPort>
+          <ArrivePort>PEK</ArrivePort>
+          <AllowSaleEffectDate>2014-10-01T00:00:00</AllowSaleEffectDate>
+          <AllowSaleExpiryDate>2014-10-31T00:00:00</AllowSaleExpiryDate>
+          <ForbidSaleEffectDate>2014-10-15T00:00:00</ForbidSaleEffectDate>
+          <ForbidSaleExpiryDate>2014-10-20T00:00:00</ForbidSaleExpiryDate>
+          <SaleTimeLimit>0900-1200,1300-1800</SaleTimeLimit>
+          <MinAdvanceDay>14</MinAdvanceDay>
+          <MaxAdvanceDay>91</MaxAdvanceDay>
+          <BatchNo />
+          <OfficeNo />
+          <IsValid>F</IsValid>
+          <IsApplyChild>F</IsApplyChild>
+          <IsAutoTicket>F</IsAutoTicket>
+          <IsEarnPoint>F</IsEarnPoint>
+          <IsShareCode>F</IsShareCode>
+          <TicketRemark />
+          <PassengerNum />
+          <PassengerAge />
+          <VoucherType>NONE</VoucherType>
+          <KSupplier>671</KSupplier>
+          <KSupplierName>上海携程内部测试</KSupplierName>
+          <TicketCity />
+        </SummaryUnit>
+        <DiscountUnit>
+          <SubClassKType>FIX</SubClassKType>
+          <SubClassFixK>M1</SubClassFixK>
+          <SubClassMinK xsi:nil="true" />
+          <DownwardRate>0.00</DownwardRate>
+          <SubClassSpanK>0</SubClassSpanK>
+          <KWorkTime>1234567/0800-2000</KWorkTime>
+          <KWorkMode>M</KWorkMode>
+        </DiscountUnit>
+        <FlightUnit>
+          <AllowSaleRule>1858-1858,1860-1880</AllowSaleRule>
+          <ForbidSaleRule>1862-1864,1870-1870</ForbidSaleRule>
+          <FlightEffectDate>2014-10-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2014-12-31T00:00:00</FlightExpiryDate>
+          <FlightDay>1234567</FlightDay>
+          <FlightTime>0000-0600,0800-1400,1600-2359</FlightTime>
+        </FlightUnit>
+        <InventoryUnit>
+          <InventoryList>
+            <Inventory>
+              <FlightNo>CA1858</FlightNo>
+              <FlightDate>2014-10-02T00:00:00</FlightDate>
+              <InventoryTotal>12</InventoryTotal>
+              <InventorySaled>0</InventorySaled>
+            </Inventory>
+            <Inventory>
+              <FlightNo>CA1871</FlightNo>
+              <FlightDate>2014-10-02T00:00:00</FlightDate>
+              <InventoryTotal>24</InventoryTotal>
+              <InventorySaled>0</InventorySaled>
+            </Inventory>
+          </InventoryList>
+        </InventoryUnit>
+        <PriceUnit>
+          <ReturnPrice>10.0000</ReturnPrice>
+          <ReturnPoint>5.00</ReturnPoint>
+        </PriceUnit>
+        <ConditionUnit>
+          <IdentityCardList />
+          <PaymentMethodList />
+          <PaymentCardList />
+        </ConditionUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>13318</PolicyID>
+        <SummaryUnit>
+          <PolicyCode />
+          <RestrictRuleID>0</RestrictRuleID>
+          <AirLine>CA</AirLine>
+          <DepartPort>PVG</DepartPort>
+          <ArrivePort>PEK</ArrivePort>
+          <AllowSaleEffectDate>2014-05-01T00:00:00</AllowSaleEffectDate>
+          <AllowSaleExpiryDate>2014-05-31T00:00:00</AllowSaleExpiryDate>
+          <ForbidSaleEffectDate xsi:nil="true" />
+          <ForbidSaleExpiryDate xsi:nil="true" />
+          <SaleTimeLimit />
+          <MinAdvanceDay>5</MinAdvanceDay>
+          <MaxAdvanceDay>360</MaxAdvanceDay>
+          <BatchNo />
+          <OfficeNo>im officeno</OfficeNo>
+          <IsValid>F</IsValid>
+          <IsApplyChild>F</IsApplyChild>
+          <IsAutoTicket>F</IsAutoTicket>
+          <IsEarnPoint>F</IsEarnPoint>
+          <IsShareCode>F</IsShareCode>
+          <TicketRemark />
+          <PassengerNum />
+          <PassengerAge />
+          <VoucherType>NONE</VoucherType>
+          <KSupplier>671</KSupplier>
+          <KSupplierName>上海携程内部测试</KSupplierName>
+          <TicketCity />
+        </SummaryUnit>
+        <DiscountUnit>
+          <SubClassKType>FIX</SubClassKType>
+          <SubClassFixK>M1</SubClassFixK>
+          <SubClassMinK xsi:nil="true" />
+          <DownwardRate>0.00</DownwardRate>
+          <SubClassSpanK>0</SubClassSpanK>
+          <KWorkTime>0800-1800,2000-2359</KWorkTime>
+          <KWorkMode>M</KWorkMode>
+        </DiscountUnit>
+        <FlightUnit>
+          <AllowSaleRule />
+          <ForbidSaleRule />
+          <FlightEffectDate>2014-06-01T00:00:00</FlightEffectDate>
+          <FlightExpiryDate>2014-06-30T00:00:00</FlightExpiryDate>
+          <FlightDay>12345</FlightDay>
+          <FlightTime>0000-0600,0800-1400,1600-2359</FlightTime>
+        </FlightUnit>
+        <InventoryUnit>
+          <InventoryList />
+        </InventoryUnit>
+        <PriceUnit>
+          <ReturnPrice>0</ReturnPrice>
+          <ReturnPoint>0</ReturnPoint>
+        </PriceUnit>
+        <ConditionUnit>
+          <IdentityCardList />
+          <PaymentMethodList />
+          <PaymentCardList />
+        </ConditionUnit>
+      </Policy>
+    </PolicyList>
+  </TradeResult>
+</KPolicyDetailSearchResponse>

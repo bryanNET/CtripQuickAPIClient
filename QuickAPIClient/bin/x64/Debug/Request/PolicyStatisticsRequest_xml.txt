@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<PolicyStatisticsRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:homePageManage:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>yuyingwu</UserName>
+      <Password>49A0293F089944DAEA2E044149C1010F</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">3</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">2551797f-2c18-43e4-8bb2-92188ad69765</RequestGUID>
+  </MessageHead>
+</PolicyStatisticsRequest>

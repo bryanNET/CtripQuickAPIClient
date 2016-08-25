@@ -1,0 +1,75 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "ea3e11ad-f95a-44d6-8280-65895c19cccc"
+  },
+  "MessageBody": {
+    "PolicyList": [
+      {
+        "PolicyID": 17260,
+        "SummaryUnit": {
+          "PolicyCode": "GEN-23:32-2",
+          "RestrictRuleID": null,
+          "AirLine": "MU",
+          "DepartPort": "TSN",
+          "ArrivePort": "CKG",
+          "AllowSaleEffectDate": "2014-11-01T00:00:00",
+          "AllowSaleExpiryDate": "2014-12-31T00:00:00",
+          "ForbidSaleEffectDate": "2014-11-20T00:00:00",
+          "ForbidSaleExpiryDate": "2014-12-10T00:00:00",
+          "SaleTimeLimit": "0000-2359",
+          "MinAdvanceDay": 7,
+          "MaxAdvanceDay": 91,
+          "BatchNo": null,
+          "OfficeNo": null,
+          "IsValid": 0,
+          "IsApplyChild": null,
+          "IsAutoTicket": null,
+          "IsEarnPoint": null,
+          "IsShareCode": null,
+          "TicketRemark": null,
+          "PassengerNum": null,
+          "PassengerAge": null,
+          "VoucherType": null,
+          "KSupplier": null,
+          "KSupplierName": null,
+          "TicketCity": null
+        },
+        "DiscountUnit": {
+          "SubClassKType": 2,
+          "SubClassFixK": "",
+          "SubClassMinK": "S",
+          "DownwardRate": 10.0,
+          "SubClassSpanK": 0,
+          "KWorkTime": "",
+          "KWorkMode": 0
+        },
+        "FlightUnit": {
+          "AllowSaleRule": null,
+          "ForbidSaleRule": null,
+          "FlightEffectDate": "2014-11-01T00:00:00",
+          "FlightExpiryDate": "2014-12-31T00:00:00",
+          "FlightDay": "12345",
+          "FlightTime": "0000-2359"
+        },
+        "InventoryUnit": {
+          "InventoryList": []
+        },
+        "RestrictionUnit": null,
+        "PriceUnit": {
+          "ReturnPrice": 15.00,
+          "ReturnPoint": 16.00
+        },
+        "ConditionUnit": {
+          "IdentityCardList": [],
+          "PaymentMethodList": [],
+          "PaymentCardList": []
+        }
+      }
+    ]
+  }
+}

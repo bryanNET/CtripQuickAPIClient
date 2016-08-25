@@ -1,0 +1,205 @@
+﻿<?xml version="1.0"?>
+<BaseRuleRestrictNFDImportRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:common:ICommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>57DD03ED397EABAEAA395EB740B770FD</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <BaseRuleRestrictList>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <DiscountS>0</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>F</IsAdvance>
+          <SubClass>X</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <DiscountS>0</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>T</IsAdvance>
+          <SubClass>X</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <DiscountS>4</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>F</IsAdvance>
+          <SubClass>X</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-20</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <DiscountS>4</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>T</IsAdvance>
+          <SubClass>X</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">20-0-20</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <DiscountS>0</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>T</IsAdvance>
+          <SubClass>Z</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40-168-80-2-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-2-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity />
+          <ACity />
+          <DiscountS>0</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>F</IsAdvance>
+          <SubClass>Z</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40-168-80-2-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-2-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity>HET</DCity>
+          <ACity>TYN</ACity>
+          <DiscountS>0</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>T</IsAdvance>
+          <SubClass>Z</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40-168-80-2-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-2-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity>HET</DCity>
+          <ACity>TYN</ACity>
+          <DiscountS>0</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>F</IsAdvance>
+          <SubClass>Z</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40-168-80-2-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-2-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity>TYN</DCity>
+          <ACity>HET</ACity>
+          <DiscountS>0</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>T</IsAdvance>
+          <SubClass>Z</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40-168-80-2-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-2-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+      <BaseRuleRestrict>
+        <FlightUnit>
+          <AirLine>MU</AirLine>
+          <DCity>TYN</DCity>
+          <ACity>HET</ACity>
+          <DiscountS>0</DiscountS>
+          <DiscountE>999</DiscountE>
+          <IsAdvance>F</IsAdvance>
+          <SubClass>Z</SubClass>
+          <FlightWay>S</FlightWay>
+        </FlightUnit>
+        <RuleRestrict>
+          <FeeBasis xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">S</FeeBasis>
+          <MinFeeExpense xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0</MinFeeExpense>
+          <RefundRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40-168-80-2-100</RefundRateRemarks>
+          <ReroutRateRemarks xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">30-2-50</ReroutRateRemarks>
+          <IsEndorse xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">T</IsEndorse>
+        </RuleRestrict>
+      </BaseRuleRestrict>
+    </BaseRuleRestrictList>
+  </MessageBody>
+</BaseRuleRestrictNFDImportRequest>

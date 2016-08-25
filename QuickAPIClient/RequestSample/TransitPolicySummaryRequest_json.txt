@@ -1,0 +1,2 @@
+﻿1. ByID_OR ByCondition
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":1,"PageSize":1000,"SearchType":ByID,"PolicyIDList":[42],"SearchCondition":null}}

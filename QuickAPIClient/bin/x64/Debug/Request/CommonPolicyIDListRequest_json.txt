@@ -1,0 +1,5 @@
+﻿1. ByCondition
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":0,"PageSize":100000,"SearchType":1,"PolicyCode":null,"SearchCondition":null}}
+
+2. ByCode
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"StartIndex":0,"PageSize":10000,"SearchType":0,"PolicyCode":"CA123","SearchCondition":null}}

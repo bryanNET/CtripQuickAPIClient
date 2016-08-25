@@ -1,0 +1,19 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<TradeFeatureConfigDeleteRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:common:ICommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+	<ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04ghg0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+	<BySupplierID>129</BySupplierID>
+    <FeatureConfigList>	
+      <FeatureName>xxx</FeatureName>
+      <FeatureName>abc1</FeatureName>
+      <FeatureName>abcrrrr</FeatureName>
+    </FeatureConfigList>
+  </MessageBody>
+</TradeFeatureConfigDeleteRequest>

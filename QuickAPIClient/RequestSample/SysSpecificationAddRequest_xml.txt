@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<SysSpecificationAddRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:homePageManage:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>admin</UserName>
+      <Password>57DD03ED397EABAEAA395EB740B770FD</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">6</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">0b8d623a-951e-494b-b411-9b96768d30ff</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <SysSpecificationList>
+      <SysSpecification>
+        <ID xsi:nil="true" />
+        <Title>通过接口添加</Title>
+        <Content>通过接口。需要有管理员权限，验证管理员权限</Content>
+        <UserId xsi:nil="true" />
+        <UserName xsi:nil="true" />
+        <ModifierId xsi:nil="true" />
+        <ModifierName xsi:nil="true" />
+        <CreateTime xsi:nil="true" />
+        <LastTime xsi:nil="true" />
+      </SysSpecification>
+    </SysSpecificationList>
+  </MessageBody>
+</SysSpecificationAddRequest>

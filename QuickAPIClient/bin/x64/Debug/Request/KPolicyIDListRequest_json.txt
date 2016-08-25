@@ -1,0 +1,33 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 1,
+    "RequestGUID": "ea3e11ad-f95a-44d6-8280-65895c19ssss"
+  },
+  "MessageBody": {
+    "StartIndex": 1,
+    "PageSize": 100,
+    "SearchCondition": {
+      "AirLine": "CA",
+      "FlightNo": null,
+      "DepartPort": "",
+      "ArrivePort": "",
+      "SaleEffectDate": null,
+      "SaleExpiryDate": null,
+      "FlightEffectDate": null,
+      "FlightExpiryDate": null,
+      "IsExactDate": null,
+      "BatchNo": null,
+      "PolicyCode": null,
+      "PolicySource": null,
+      "IsValid": null,
+      "IsCanSale": null,
+      "FixKSubclass": "M1",
+      "MinKSubclass": null,
+      "KSupplier": null
+    }
+  }
+}

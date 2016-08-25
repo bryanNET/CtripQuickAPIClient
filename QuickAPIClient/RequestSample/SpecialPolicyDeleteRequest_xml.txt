@@ -1,0 +1,67 @@
+﻿1. ByID
+<?xml version="1.0"?>
+<SpecialPolicyDeleteRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <DeleteType>ByID</DeleteType>
+    <PolicyIDList>
+      <ID>634600</ID>
+      <ID>719104</ID>
+      <ID>3779106</ID>
+      <ID>6734785</ID>
+    </PolicyIDList>
+    <PolicyCodeList />
+    <ExternalIDList />
+    <PolicySource>All</PolicySource>
+  </MessageBody>
+</SpecialPolicyDeleteRequest>
+
+2.ByCode
+<?xml version="1.0"?>
+<SpecialPolicyDeleteRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <DeleteType>ByCode</DeleteType>
+    <PolicyIDList />
+    <PolicyCodeList>
+      <Code>GEN-9:50-0</Code>
+      <Code>GEN-9:50-1</Code>
+      <Code>GEN-9:50-2</Code>
+      <Code>GEN-9:50-3</Code>
+      <Code>GEN-9:50-4</Code>
+      <Code>GEN-9:50-5</Code>
+      <Code>GEN-9:50-6</Code>
+      <Code>GEN-9:50-7</Code>
+      <Code>GEN-9:50-8</Code>
+      <Code>GEN-9:50-9</Code>
+    </PolicyCodeList>
+    <ExternalIDList />
+    <PolicySource>QuickAPI</PolicySource>
+	<IsFuzzyMatch>F</IsFuzzyMatch>
+  </MessageBody>
+</SpecialPolicyDeleteRequest>
+
+<!--public enum PolicySource 
+{ 
+All = 0, 所有
+API, OpenAPI
+Input, 手工录入
+Platform, excel
+Refund, 退费转
+Vocation, 度假
+QuickAPI quicakpi
+}-->

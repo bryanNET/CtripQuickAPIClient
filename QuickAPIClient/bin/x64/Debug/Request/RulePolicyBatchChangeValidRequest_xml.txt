@@ -1,0 +1,57 @@
+﻿--ByID
+<?xml version="1.0"?>
+<RulePolicyBatchChangeValidRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>DF6B369D981E6F39393255E6ECE51D72</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">6e92de5e-96f0-434c-bb5a-bf7592a9cd15</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <ChangeType>ByID</ChangeType>
+    <PolicyIDList>
+      <ID>132809</ID>
+      <ID>132810</ID>
+    </PolicyIDList>
+    <IsValid>T</IsValid>
+  </MessageBody>
+</RulePolicyBatchChangeValidRequest>
+
+--ByCondition
+<?xml version="1.0"?>
+<RulePolicyBatchChangeValidRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>DF6B369D981E6F39393255E6ECE51D72</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1e7e405a-f70c-4b1d-b12e-9b549cfa067d</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <ChangeType>ByCondition</ChangeType>
+    <PolicyIDList />
+    <RulePolicyCondition>
+      <FlightWay xsi:nil="true" />
+      <AirLine xsi:nil="true" />
+      <SubClass xsi:nil="true" />
+      <GoFlighteffectDate xsi:nil="true" />
+      <GoFlightexpiryDate xsi:nil="true" />
+      <EffectDate>2014-02-14T00:00:00</EffectDate>
+      <ExpiryDate>2014-12-31T00:00:00</ExpiryDate>
+      <IsSecurity xsi:nil="true" />
+      <MinAdvanceDays xsi:nil="true" />
+      <MaxAdvanceDays xsi:nil="true" />
+      <CanSaleDPort xsi:nil="true" />
+      <CanSaleAPort xsi:nil="true" />
+      <LimitSaleDPort xsi:nil="true" />
+      <LimitSaleAPort xsi:nil="true" />
+      <SourceCity xsi:nil="true" />
+      <RulePolicyID xsi:nil="true" />
+      <PolicySource xsi:nil="true" />
+    </RulePolicyCondition>
+    <IsValid>T</IsValid>
+  </MessageBody>
+</RulePolicyBatchChangeValidRequest>

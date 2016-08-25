@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PolicyHistoryLogResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:common:ICommonData:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-12-16T10:30:30.2437842+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <HistoryList>
+      <History>
+        <ClientID>0</ClientID>
+        <Content>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;FltShareSpecialPolicyOW xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Acity&gt;TYN&lt;/Acity&gt;&lt;Advreserve&gt;0&lt;/Advreserve&gt;&lt;Airline&gt;CA&lt;/Airline&gt;&lt;AllowPayDirectly&gt;false&lt;/AllowPayDirectly&gt;&lt;Aport&gt;TYN&lt;/Aport&gt;&lt;ApplyChild&gt;false&lt;/ApplyChild&gt;&lt;ApplyFlag&gt;0&lt;/ApplyFlag&gt;&lt;AutoTicketed&gt;false&lt;/AutoTicketed&gt;&lt;BatchNo /&gt;&lt;ChangeCode&gt;false&lt;/ChangeCode&gt;&lt;Class&gt;89&lt;/Class&gt;&lt;DataChange_CreateTime&gt;2014-12-16T10:22:00&lt;/DataChange_CreateTime&gt;&lt;DataChange_LastTime&gt;2014-12-16T10:30:25&lt;/DataChange_LastTime&gt;&lt;DateCanSale xsi:nil="true" /&gt;&lt;Days&gt;127&lt;/Days&gt;&lt;Dcity&gt;BJS&lt;/Dcity&gt;&lt;Dport&gt;PEK&lt;/Dport&gt;&lt;IDCardType /&gt;&lt;InventoryType&gt;1&lt;/InventoryType&gt;&lt;IsBooking&gt;false&lt;/IsBooking&gt;&lt;IsCompositionPrice xsi:nil="true" /&gt;&lt;IsSecurity&gt;false&lt;/IsSecurity&gt;&lt;MaxAdvanceDays&gt;3&lt;/MaxAdvanceDays&gt;&lt;MaxPassengerAge&gt;0&lt;/MaxPassengerAge&gt;&lt;MaxPassengerNum xsi:nil="true" /&gt;&lt;MinPassengerAge&gt;0&lt;/MinPassengerAge&gt;&lt;MinPassengerNum&gt;1&lt;/MinPassengerNum&gt;&lt;NeedChangePNR&gt;false&lt;/NeedChangePNR&gt;&lt;NeedConfirm&gt;false&lt;/NeedConfirm&gt;&lt;NeedCreatePNR&gt;false&lt;/NeedCreatePNR&gt;&lt;NeedPata&gt;false&lt;/NeedPata&gt;&lt;NeedProvideFrequentFlyerScore&gt;false&lt;/NeedProvideFrequentFlyerScore&gt;&lt;NeedProvideInvoice&gt;false&lt;/NeedProvideInvoice&gt;&lt;OfficeNo&gt;BJS260,ABC123&lt;/OfficeNo&gt;&lt;PassengerLimitRemarks&gt;0&lt;/PassengerLimitRemarks&gt;&lt;PataPriceValue&gt;0&lt;/PataPriceValue&gt;&lt;PataVerifyPriceOption&gt;0&lt;/PataVerifyPriceOption&gt;&lt;PayCardType /&gt;&lt;PayType /&gt;&lt;PolicyCode&gt;pt_51_69654719_PEK-TYNY&lt;/PolicyCode&gt;&lt;PolicyRemarks&gt;北京出港特殊航线手续费较高 特价机票不得改签退票_5.8&lt;/PolicyRemarks&gt;&lt;PolicySource&gt;6&lt;/PolicySource&gt;&lt;PolicyStatus&gt;1&lt;/PolicyStatus&gt;&lt;Printprice&gt;79000&lt;/Printprice&gt;&lt;ProductID&gt;36102501680&lt;/ProductID&gt;&lt;ProductType&gt;1&lt;/ProductType&gt;&lt;ProductTypeName&gt;7&lt;/ProductTypeName&gt;&lt;ProvideTravelList&gt;false&lt;/ProvideTravelList&gt;&lt;RcID&gt;1893905&lt;/RcID&gt;&lt;ReturnPrice&gt;0&lt;/ReturnPrice&gt;&lt;RouteEffectDate&gt;2014-12-16T00:00:00&lt;/RouteEffectDate&gt;&lt;RouteExpiryDate&gt;2014-12-31T23:59:59&lt;/RouteExpiryDate&gt;&lt;RuleCanSale&gt;true&lt;/RuleCanSale&gt;&lt;RuleDetail /&gt;&lt;SaledTicketNum&gt;0&lt;/SaledTicketNum&gt;&lt;SaleEffectDate&gt;2014-12-16T00:00:00&lt;/SaleEffectDate&gt;&lt;SaleExpiryDate&gt;2014-12-31T23:59:59&lt;/SaleExpiryDate&gt;&lt;Saleprice&gt;79000&lt;/Saleprice&gt;&lt;SecuritySuppliers /&gt;&lt;Setprice&gt;74418&lt;/Setprice&gt;&lt;Source&gt;671&lt;/Source&gt;&lt;SourceCity&gt;2&lt;/SourceCity&gt;&lt;Subclass&gt;89&lt;/Subclass&gt;&lt;SubClassNote /&gt;&lt;SupplierPolicyID xsi:nil="true" /&gt;&lt;TicketInventory&gt;0&lt;/TicketInventory&gt;&lt;TicketSpeed&gt;0&lt;/TicketSpeed&gt;&lt;TicketType&gt;1&lt;/TicketType&gt;&lt;VipCode /&gt;&lt;VouchersType xsi:nil="true" /&gt;&lt;WorkTimeLimitID xsi:nil="true" /&gt;&lt;/FltShareSpecialPolicyOW&gt;</Content>
+        <ContentKey>36102501680</ContentKey>
+        <CreateTime>2014-12-16T10:22:00</CreateTime>
+        <LastTime>2014-12-16T10:30:25</LastTime>
+        <HistoryID>0</HistoryID>
+        <LogType>1</LogType>
+        <OperationDate>2014-12-16T10:30:25</OperationDate>
+        <OperationType>3</OperationType>
+        <PartitionKey>0</PartitionKey>
+        <SupplierID>671</SupplierID>
+        <SupplierUserID>0</SupplierUserID>
+        <SupplierName />
+      </History>
+    </HistoryList>
+  </TradeResult>
+</PolicyHistoryLogResponse>

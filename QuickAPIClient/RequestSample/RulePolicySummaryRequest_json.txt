@@ -1,0 +1,37 @@
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "yuyingwu",
+      "Password": "49A0293F089944DAEA2E044149C1010F"
+    },
+    "ClientID": 2,
+    "RequestGUID": "eca236fb-b938-495e-8b6a-dbd6da7c27f0"
+  },
+  "MessageBody": {
+    "StartIndex": 0,
+    "PageSize": 10,
+    "SearchType": 1,
+    "PolicyIDList": [],
+    "RulePolicyCondition": {
+      "BatchNo": "",
+      "FlightWay": null,
+      "AirLine": null,
+      "SubClass": null,
+      "GoFlighteffectDate": null,
+      "GoFlightexpiryDate": null,
+      "EffectDate": null,
+      "ExpiryDate": null,
+      "IsSecurity": null,
+      "MinAdvanceDays": null,
+      "MaxAdvanceDays": null,
+      "CanSaleDPort": null,
+      "CanSaleAPort": null,
+      "LimitSaleDPort": null,
+      "LimitSaleAPort": null,
+      "SourceCity": null,
+      "RulePolicyID": null,
+      "RulePolicyCode": null,
+      "PolicySource": null
+    }
+  }
+}

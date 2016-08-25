@@ -1,0 +1,46 @@
+1.ByCode
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialPolicyDeleteResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-04-01T17:38:47.6101435+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <Result xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <Summary>
+        <SuccessCount>0</SuccessCount>
+        <FailedCount>2</FailedCount>
+      </Summary>
+      <SuccessList />
+      <FailedList>
+        <ID>S_471474358_550_0</ID>
+        <ID>B2B</ID>
+      </FailedList>
+    </Result>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </TradeResult>
+</SpecialPolicyDeleteResponse>
+
+2.ByID
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialPolicyDeleteResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-04-02T19:17:10.0239902+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <Result xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <Summary>
+        <SuccessCount>0</SuccessCount>
+        <FailedCount>3</FailedCount>
+      </Summary>
+      <SuccessList />
+      <FailedList>
+        <ID>14781471</ID>
+        <ID>15211201</ID>
+        <ID>15211725</ID>
+      </FailedList>
+    </Result>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </TradeResult>
+</SpecialPolicyDeleteResponse>

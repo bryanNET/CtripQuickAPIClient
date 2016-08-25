@@ -1,0 +1,24 @@
+{
+	"MessageHead": {
+		"UserInfo": {
+			"UserName": "xy",
+			"Password": "C59498DADC3088E1526A22F852C68BEC"
+		},
+		"ClientID": "1",
+		"RequestGUID": "ea3e11ad-f95a-44d6-8280-65895c19ssss"
+	},
+	"MessageBody": {
+		"DepartEffectDate": "2015-10-20",
+		"DepartExpiryDate": "2015-10-30",
+		"FlightWay": "S",
+		"Class": "F",
+		"SubClass": "T",
+		"Airline": "CZ",
+		"DCityACityList": {
+			"DCityACity": {
+				"DCity": "CAN",
+				"ACity": "TXN"
+			}
+		}
+	}
+}

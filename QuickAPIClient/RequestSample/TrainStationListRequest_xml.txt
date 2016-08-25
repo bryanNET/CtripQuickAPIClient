@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<TrainStationListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:trainstation:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName />
+      <Password />
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </MessageHead>
+  <MessageBody>
+    <IDList>
+      <ID>1</ID>
+      <ID>2</ID>
+      <ID>3</ID>
+      <ID>4</ID>
+      <ID>555</ID>
+    </IDList>
+  </MessageBody>
+</TrainStationListRequest>

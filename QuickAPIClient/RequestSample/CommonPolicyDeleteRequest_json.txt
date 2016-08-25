@@ -1,0 +1,5 @@
+﻿1. ByID
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"DeleteType":0,"PolicyIDList":[731156,215798777,3341,3346,3349],"PolicyCodeList":[],"ExternalIDList":[]}}
+
+2. ByCode
+{"MessageHead":{"UserInfo":{"UserName":"xy","Password":"C59498DADC3088E1526A22F852C68BEC"},"ClientID":0,"RequestGUID":null},"MessageBody":{"DeleteType":1,"PolicyIDList":[],"PolicyCodeList":["CA123","100012","ad","perspiciatis","CA986"],"ExternalIDList":[]}}

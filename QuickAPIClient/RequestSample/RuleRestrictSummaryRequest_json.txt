@@ -1,0 +1,28 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 6,
+    "RequestGUID": "b1f694c3-1414-41c5-b4f8-b0c86f93fa5b"
+  },
+  "MessageBody": {
+    "StartIndex": 0,
+    "PageSize": 10,
+    "SearchType": 1,
+    "RcIDList": [],
+    "SearchCondition": {
+      "Name": "",
+      "IsEndorse": 0,
+      "IsRefund": null,
+      "RefundRateRemarks": "",
+      "IsRerout": 0,
+      "ReroutRateRemarks": "",
+      "IsUpgrade": 0,
+      "UpgradeSubClass": "",
+      "FeeBasis": 0,
+      "ChargeRule": null
+    }
+  }
+}

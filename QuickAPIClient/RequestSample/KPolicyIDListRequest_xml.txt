@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<KPolicyIDListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ea3e11ad-f95a-44d6-8280-65895c19ssss</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>1</StartIndex>
+    <PageSize>100</PageSize>
+    <SearchCondition>
+      <AirLine>CA</AirLine>
+      <FlightNo xsi:nil="true" />
+      <DepartPort />
+      <ArrivePort />
+      <SaleEffectDate xsi:nil="true" />
+      <SaleExpiryDate xsi:nil="true" />
+      <FlightEffectDate xsi:nil="true" />
+      <FlightExpiryDate xsi:nil="true" />
+      <IsExactDate xsi:nil="true" />
+      <BatchNo xsi:nil="true" />
+      <PolicyCode xsi:nil="true" />
+      <PolicySource xsi:nil="true" />
+      <IsValid xsi:nil="true" />
+      <IsCanSale xsi:nil="true" />
+      <FixKSubclass>M1</FixKSubclass>
+      <MinKSubclass xsi:nil="true" />
+      <KSupplier xsi:nil="true" />
+    </SearchCondition>
+  </MessageBody>
+</KPolicyIDListRequest>

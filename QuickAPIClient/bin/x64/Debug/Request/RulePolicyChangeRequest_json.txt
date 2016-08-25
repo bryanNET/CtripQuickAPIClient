@@ -1,0 +1,106 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "1709bd69-79d3-49e2-8231-33ad7facd2b2"
+  },
+  "MessageBody": {
+    "PolicyList": [
+      {
+        "PolicyID": 149948,
+        "BasicUnit": {
+          "BatchNo": "",
+          "TicketType": 118,
+          "IsBooking": 0,
+          "OfficeNo": "",
+          "IsSecurity": 1,
+          "NeedPata": 1,
+          "PolicyCode": "adsdasdasdsdasd",
+          "VipCode": "sdhsuadsdklnzxkl",
+          "PolicyStatus": 0,
+          "IsAutoTicket": 1,
+          "IsCustomerPoint": 1,
+          "IsShareFilght": 1,
+          "TicketRemark": null
+        },
+        "FlightUnit": {
+          "FlightWay": 0,
+          "AirLine": "MU",
+          "GoFlight": {
+            "SaleFlightList": [],
+            "EffectDate": "2014-10-14T12:59:08.7989596+08:00",
+            "ExpiryDate": "2014-10-15T12:59:08.7989596+08:00",
+            "DepartTimeLimit": "",
+            "Days": ""
+          },
+          "BackFlight": null
+        },
+        "SaleLimitUnit": {
+          "EffectDate": "2014-09-20T10:39:21.75",
+          "ExpiryDate": "2014-09-20T10:39:21.75",
+          "UnEffectDate": "2014-09-20T10:39:21.75",
+          "UnExpiryDate": "2014-09-20T10:39:21.75",
+          "ControlTime": "0000-1000",
+          "MinAdvanceDays": 2,
+          "MaxAdvanceDays": 365,
+          "MinStopDays": 82,
+          "MaxStopDays": 88,
+          "PassengerAgeLimitRemarks": "28-50",
+          "ApplyChild": null,
+          "PassengersNum": "2",
+          "IDLimitLimit": null,
+          "IsCompositionPrice": 0,
+          "CompositionPriceRemark": "",
+          "VouchersType": 0,
+          "PrepayTypeLimit": {
+            "PrepayTypeList": [
+              0
+            ]
+          },
+          "PayCardLimit": {
+            "PayCardList": [
+              0
+            ]
+          }
+        },
+        "RulePriceUnit": {
+          "RulePriceList": [
+            {
+              "SubClass": "M",
+              "IsUpgrade": 1,
+              "RcID": null,
+              "RuleRestrict": {
+                "Name": "name_me",
+                "FeeBasis": 0,
+                "MinFeeExpense": 0.0000,
+                "RefundRateRemarks": "10-8-20-0-30",
+                "ReroutRateRemarks": "10-16-20-0-30",
+                "IsEndorse": 0,
+                "Remarks": "im remark"
+              },
+              "ClassForbidden": 0,
+              "PriceRule": 1,
+              "DownwardRate": 1.00,
+              "SubtractPrice": 2,
+              "SalePriceRule": 4,
+              "SaleDownwardRate": 2.00,
+              "SaleSubtractPrice": 96,
+              "NumCarryRule": 1,
+              "Commision": 2.00,
+              "ReturnPrice": 2.0000,
+              "InventoryType": 0,
+              "Inventory": 113,
+              "LeftInventory": 0
+            }
+          ]
+        },
+        "TicketUnit": {
+          "TicketSupplierList": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<WorkDayListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:workingTime:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">92a6ce3a-0c5a-477c-9f5c-ea16aea6e47d</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>100000</PageSize>
+    <SearchType>BySupplier</SearchType>
+    <SupplierList>
+      <Supplier>492</Supplier>
+      <Supplier>671</Supplier>
+    </SupplierList>
+  </MessageBody>
+</WorkDayListRequest>

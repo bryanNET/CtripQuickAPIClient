@@ -1,0 +1,12 @@
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\bin\x86\Debug\QuickAPIClient.exe.config
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\bin\x86\Debug\QuickAPIClient.exe
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\bin\x86\Debug\QuickAPIClient.pdb
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\bin\x86\Debug\CServiceStack.Mega.dll
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\obj\x86\Debug\Flight.Trade.TradeQuickAPI.Client.QuickAPIClient.resources
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\obj\x86\Debug\Flight.Trade.TradeQuickAPI.Client.Properties.Resources.resources
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\obj\x86\Debug\QuickAPIClient.exe
+D:\Source\Flight\Product\Branch\Tools\QuickAPIClientTools\obj\x86\Debug\QuickAPIClient.pdb

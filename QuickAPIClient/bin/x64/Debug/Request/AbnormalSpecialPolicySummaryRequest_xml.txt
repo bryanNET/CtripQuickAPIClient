@@ -1,0 +1,82 @@
+﻿1. 异常政策运价全部 ByCondition-All
+<?xml version="1.0"?>
+<AbnormalSpecialPolicySummaryRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:AbnormalPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>bei_zhang</UserName>
+      <Password>69F28229FA0BB2B22E2C565C56FD9439</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">40d2f6d2-c7fc-4650-8516-48f9d9ba9b1c</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>1</StartIndex>
+    <PageSize>1000</PageSize>
+    <SearchType>ByCondition</SearchType>
+    </MessageBody>
+</AbnormalSpecialPolicySummaryRequest>
+
+2. 异常政策运价 ByCondition
+<?xml version="1.0"?>
+<AbnormalSpecialPolicySummaryRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:AbnormalPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>bei_zhang</UserName>
+      <Password>69F28229FA0BB2B22E2C565C56FD9439</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">d5fbcad7-b5eb-45dc-b7f4-d6225a89edf2</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>1</StartIndex>
+    <PageSize>1000</PageSize>
+    <SearchType>ByCondition</SearchType>
+    <PolicyIDList />
+    <SearchCondition>
+      <FlightWay>S</FlightWay>
+      <AirLine>FM</AirLine>
+      <EffectDate>2015-01-27T00:00:00</EffectDate>
+      <ExpiryDate>2015-04-24T00:00:00</ExpiryDate>
+      <GoFlighteffectDate>2015-01-16T00:00:00</GoFlighteffectDate>
+      <GoFlightexpiryDate>2015-01-23T00:00:00</GoFlightexpiryDate>
+      <DepartPort>CAN</DepartPort>
+      <ArrivePort>PVG</ArrivePort>
+      <SubClass>S</SubClass>
+      <PolicyCode />
+      <InventoryType>ALL</InventoryType>
+      <IsBooking xsi:nil="true" />
+      <AbnormalType xsi:nil="true" />
+      <ProductType xsi:nil="true" />
+    </SearchCondition>
+  </MessageBody>
+</AbnormalSpecialPolicySummaryRequest>
+
+
+3. 异常政策运价 ByID
+<?xml version="1.0"?>
+<AbnormalSpecialPolicySummaryRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:AbnormalPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>bei_zhang</UserName>
+      <Password>69F28229FA0BB2B22E2C565C56FD9439</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">2</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">f77cd886-7556-49f8-977b-5aae1dc776f8</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>1</StartIndex>
+    <PageSize>1000</PageSize>
+    <SearchType>ByID</SearchType>
+    <PolicyIDList>
+      <ID>2761925381</ID>
+      <ID>4001937242</ID>
+      <ID>4001937242</ID>
+      <ID>17311772</ID>
+      <ID>4000000341</ID>
+      <ID>4000003947</ID>
+      <ID>4000003948</ID>
+      <ID>4000003952</ID>
+      <ID>4078940734</ID>
+    </PolicyIDList>
+  </MessageBody>
+</AbnormalSpecialPolicySummaryRequest>

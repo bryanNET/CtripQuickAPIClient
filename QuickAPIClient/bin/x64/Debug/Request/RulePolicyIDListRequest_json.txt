@@ -1,0 +1,35 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "2b162b99-7bc8-4cc1-9c8c-568de12561a2"
+  },
+  "MessageBody": {
+    "StartIndex": 0,
+    "PageSize": 100000,
+    "SearchCondition": {
+      "BatchNo": "",
+      "FlightWay": null,
+      "AirLine": null,
+      "SubClass": null,
+      "GoFlighteffectDate": null,
+      "GoFlightexpiryDate": null,
+      "EffectDate": null,
+      "ExpiryDate": null,
+      "IsSecurity": 0,
+      "MinAdvanceDays": null,
+      "MaxAdvanceDays": null,
+      "CanSaleDPort": null,
+      "CanSaleAPort": null,
+      "LimitSaleDPort": null,
+      "LimitSaleAPort": null,
+      "SourceCity": null,
+      "RulePolicyID": null,
+      "RulePolicyCode": "",
+      "PolicySource": null
+    }
+  }
+}

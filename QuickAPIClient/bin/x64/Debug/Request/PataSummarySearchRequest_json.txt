@@ -1,0 +1,26 @@
+{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "ypcao",
+      "Password": "DF6B369D981E6F39393255E6ECE51D72"
+    },
+    "ClientID": 4,
+    "RequestGUID": "7711ef0e-36ba-43ba-8f5e-9d3a393bcd4e"
+  },
+  "MessageBody": {
+    "StartIndex": 0,
+    "PageSize": 10,
+    "SearchCondition": {
+      "PolicyType": 1,
+      "FlightWay": 0,
+      "PolicyID": null,
+      "PolicyCode": "",
+      "GoSubClass": null,
+      "BackSubClass": null,
+      "AirLine": null,
+      "Dcity": null,
+      "Acity": null,
+      "IsPass": 1
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<SysNoticeChangeRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:homePageManage:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>admin</UserName>
+      <Password>57DD03ED397EABAEAA395EB740B770FD</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">fd6598d0-9ebc-44b8-963d-6d1cc704d666</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <SysNoticeList>
+      <SysNotice>
+        <ID>34</ID>
+        <Type>NEW</Type>
+        <Title>这是标题，标题可为空哦</Title>
+        <Content>这是内容，你不填就是你的事！！</Content>
+        <IsTopMost xsi:nil="true" />
+        <UserId xsi:nil="true" />
+        <UserName xsi:nil="true" />
+        <ModifierId xsi:nil="true" />
+        <ModifierName />
+        <CreateTime xsi:nil="true" />
+        <LastTime xsi:nil="true" />
+      </SysNotice>
+    </SysNoticeList>
+  </MessageBody>
+</SysNoticeChangeRequest>
+
+<!-- 
+ALL： 0-全部类型
+UPG： 1-系统升级
+NEW   2-新增功能
+CON   3-配置和接口
+NOT   4-代理商须知
+TRA   5-系统培训
+PAY   6-支付相关
+SAL   7-销售通知
+OTH   8-其他
+-->

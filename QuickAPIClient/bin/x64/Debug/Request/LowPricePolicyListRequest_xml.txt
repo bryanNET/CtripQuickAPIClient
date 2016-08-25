@@ -1,0 +1,178 @@
+﻿1、SPECIALPOLICY 请求报文
+<?xml version="1.0"?>
+<LowPricePolicyListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">cfe23db7-3354-4675-b7e4-5ed0e5ac9ecb</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <SearchCondition>
+      <AirLine />
+      <EffectDate>2015-11-26T00:00:00</EffectDate>
+      <DepartPort>CAN</DepartPort>
+      <ArrivePort>HGH</ArrivePort>
+      <GoSubClass />
+      <TradePolicyType>SPECIALPOLICY</TradePolicyType>
+      <ShareProductTypeList>
+      <item>PriorityPackage</item>
+      <item>Limited</item>
+      <item>ApplySpecial</item>
+      <item>TravelPackage</item>
+	  <item>AirLineMarketing</item>
+      <item>NA</item>
+      </ShareProductTypeList>
+	  <IsRealTimeData>False</IsRealTimeData>
+    </SearchCondition>
+  </MessageBody>
+</LowPricePolicyListRequest>
+
+2、RAWPOLICY 请求报文
+<?xml version="1.0"?>
+<LowPricePolicyListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">cfe23db7-3354-4675-b7e4-5ed0e5ac9ecb</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <SearchCondition>
+      <AirLine />
+      <EffectDate>2015-11-24T00:00:00</EffectDate>
+      <DepartPort>CAN</DepartPort>
+      <ArrivePort>HGH</ArrivePort>
+      <GoSubClass />
+      <TradePolicyType>RAWPOLICY</TradePolicyType>
+      <ShareProductTypeList>
+      <item>BusinessPriority</item>
+      <item>PremiumEconomy</item>
+      <item>FullEconomy</item>
+      <item>DiscountBusiness</item>
+      <item>DiscountFirstClass</item>
+	  <item>FullBusiness</item>
+	  <item>FullFirstClass</item>
+	  <item>AirLineMarketing</item>
+      <item>NA</item>
+	  </ShareProductTypeList>
+	  <IsRealTimeData>False</IsRealTimeData>
+    </SearchCondition>
+  </MessageBody>
+</LowPricePolicyListRequest>
+
+
+3、ALL 请求报文
+<?xml version="1.0"?>
+<LowPricePolicyListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">cfe23db7-3354-4675-b7e4-5ed0e5ac9ecb</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <SearchCondition>
+      <AirLine />
+      <EffectDate>2015-11-26T00:00:00</EffectDate>
+      <DepartPort>CAN</DepartPort>
+      <ArrivePort>HGH</ArrivePort>
+      <GoSubClass />
+      <TradePolicyType>ALL</TradePolicyType>
+      <ShareProductTypeList>
+      <item>PriorityPackage</item>
+      <item>Limited</item>
+      <item>ApplySpecial</item>
+      <item>TravelPackage</item>
+	  <item>BusinessPriority</item>
+      <item>PremiumEconomy</item>
+      <item>FullEconomy</item>
+      <item>DiscountBusiness</item>
+      <item>DiscountFirstClass</item>
+	  <item>FullBusiness</item>
+	  <item>FullFirstClass</item>
+	  <item>AirLineMarketing</item>
+      <item>NA</item>
+      </ShareProductTypeList>
+	  <IsRealTimeData>False</IsRealTimeData>
+    </SearchCondition>
+  </MessageBody>
+</LowPricePolicyListRequest>
+
+4、NA 请求报文
+<?xml version="1.0"?>
+<LowPricePolicyListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">cfe23db7-3354-4675-b7e4-5ed0e5ac9ecb</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <SearchCondition>
+      <AirLine />
+      <EffectDate>2015-11-26T00:00:00</EffectDate>
+      <DepartPort>CAN</DepartPort>
+      <ArrivePort>HGH</ArrivePort>
+      <GoSubClass />
+      <TradePolicyType>NA</TradePolicyType>
+      <ShareProductTypeList>
+	  <item>NA</item>
+      <item>PriorityPackage</item>
+      <item>Limited</item>
+      <item>ApplySpecial</item>
+      <item>TravelPackage</item>
+	  <item>BusinessPriority</item>
+      <item>PremiumEconomy</item>
+      <item>FullEconomy</item>
+      <item>DiscountBusiness</item>
+      <item>DiscountFirstClass</item>
+	  <item>FullBusiness</item>
+	  <item>FullFirstClass</item>
+	  <item>AirLineMarketing</item>
+      </ShareProductTypeList>
+	  <IsRealTimeData>False</IsRealTimeData>
+    </SearchCondition>
+  </MessageBody>
+</LowPricePolicyListRequest>
+
+5、查询多个起飞日期 请求报文
+<?xml version="1.0"?>
+<LowPricePolicyListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">cfe23db7-3354-4675-b7e4-5ed0e5ac9ecb</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <SearchCondition>
+      <AirLine />
+      <EffectDate>2015-11-26T00:00:00</EffectDate>
+      <DepartPort>CAN</DepartPort>
+      <ArrivePort>HGH</ArrivePort>
+      <GoSubClass />
+      <TradePolicyType>SPECIALPOLICY</TradePolicyType>
+      <ShareProductTypeList>
+      <item>PriorityPackage</item>
+      <item>Limited</item>
+      <item>ApplySpecial</item>
+      <item>TravelPackage</item>
+	  <item>AirLineMarketing</item>
+      <item>NA</item>
+      </ShareProductTypeList>
+      <IsRealTimeData>False</IsRealTimeData>
+      <ExipryDate>2015-11-28T00:00:00</ExipryDate>
+    </SearchCondition>
+  </MessageBody>
+</LowPricePolicyListRequest>

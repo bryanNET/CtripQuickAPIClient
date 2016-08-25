@@ -1,0 +1,57 @@
+﻿--ByID
+<?xml version="1.0"?>
+<KPolicyBatchChangeValidRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>DF6B369D981E6F39393255E6ECE51D72</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">3</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">565b97b3-910a-4cef-a4ce-3385bdb4fc98</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <ChangeType>ByID</ChangeType>
+    <PolicyIDList>
+      <ID>13149</ID>
+      <ID>13150</ID>
+    </PolicyIDList>
+    <IsValid>T</IsValid>
+  </MessageBody>
+</KPolicyBatchChangeValidRequest>
+
+--ByCondition
+<?xml version="1.0"?>
+<KPolicyBatchChangeValidRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:kPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>DF6B369D981E6F39393255E6ECE51D72</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">75dcc03c-3174-458b-9582-23a3a6c14801</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <ChangeType>ByCondition</ChangeType>
+    <PolicyIDList />
+    <SearchCondition>
+      <AirLine xsi:nil="true" />
+      <FlightNo xsi:nil="true" />
+      <ArrivePort xsi:nil="true" />
+      <DepartPort xsi:nil="true" />
+      <SaleEffectDate>2014-02-14T00:00:00</SaleEffectDate>
+      <SaleExpiryDate>2014-12-31T00:00:00</SaleExpiryDate>
+      <FlightEffectDate xsi:nil="true" />
+      <FlightExpiryDate xsi:nil="true" />
+      <IsExactDate xsi:nil="true" />
+      <BatchNo xsi:nil="true" />
+      <PolicyCode xsi:nil="true" />
+      <PolicySource xsi:nil="true" />
+      <IsValid xsi:nil="true" />
+      <IsCanSale xsi:nil="true" />
+      <FixKSubclass xsi:nil="true" />
+      <MinKSubclass xsi:nil="true" />
+      <KSupplier xsi:nil="true" />
+    </SearchCondition>
+    <IsValid>T</IsValid>
+  </MessageBody>
+</KPolicyBatchChangeValidRequest>

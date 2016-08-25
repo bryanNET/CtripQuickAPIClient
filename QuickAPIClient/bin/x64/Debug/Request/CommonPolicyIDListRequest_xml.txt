@@ -1,0 +1,70 @@
+﻿1.ByCondition-查所有
+<?xml version="1.0"?>
+<CommonPolicyIDListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">99dc6610-4f3d-40c0-a768-9bd8bfb3b810</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>100000</PageSize>
+    <SearchType>ByCondition</SearchType>
+  </MessageBody>
+</CommonPolicyIDListRequest>
+
+2.ByCondition-根据条件查询
+<?xml version="1.0"?>
+<CommonPolicyIDListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">99dc6610-4f3d-40c0-a768-9bd8bfb3b810</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>100000</PageSize>
+    <SearchType>ByCondition</SearchType>
+    <SearchCondition>
+      <FlightWay>A</FlightWay>
+      <AirLine>CA</AirLine>
+      <EffectDate>2014-04-17T19:46:29.5237315+08:00</EffectDate>
+      <ExpiryDate>2014-04-17T19:46:29.5247315+08:00</ExpiryDate>
+      <GoFlighteffectDate>2014-04-17T19:46:29.5247315+08:00</GoFlighteffectDate>
+      <GoFlightexpiryDate>2014-04-17T19:46:29.5247315+08:00</GoFlightexpiryDate>
+      <DepartPort>UYN</DepartPort>
+      <ArrivePort>XIY</ArrivePort>
+      <IsValid>A</IsValid>
+      <SubClass>M1</SubClass>
+    </SearchCondition>
+  </MessageBody>
+</CommonPolicyIDListRequest>
+
+3.ByCode
+<?xml version="1.0"?>
+<CommonPolicyIDListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">99dc6610-4f3d-40c0-a768-9bd8bfb3b810</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>10000</PageSize>
+    <SearchType>ByCode</SearchType>
+    <PolicyCode>CA123</PolicyCode>
+	<PolicyCodeList>
+      <PolicyCode>pc0</PolicyCode>
+      <PolicyCode>b2b</PolicyCode>
+    </PolicyCodeList>
+  </MessageBody>
+</CommonPolicyIDListRequest>

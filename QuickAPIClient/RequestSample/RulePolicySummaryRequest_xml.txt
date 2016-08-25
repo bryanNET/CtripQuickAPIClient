@@ -1,0 +1,79 @@
+﻿1. ByCondition-All
+<?xml version="1.0" encoding="utf-8"?>
+<RulePolicySummaryRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+   <MessageBody>
+    <StartIndex>1</StartIndex>
+    <PageSize>10</PageSize>
+    <SearchType>ByCondition</SearchType>
+  </MessageBody>
+</RulePolicySummaryRequest>
+
+2. ByCondition
+<?xml version="1.0" encoding="utf-8"?>
+<RulePolicySummaryRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>1</StartIndex>
+    <PageSize>10</PageSize>
+    <SearchType>ByCondition</SearchType>
+    <RulePolicyCondition>
+      <BatchNo>NoSign</BatchNo>
+      <FlightWay>D</FlightWay>
+      <AirLine>CA</AirLine>
+      <SubClass>Y</SubClass>
+      <GoFlighteffectDate>2014-08-15T00:00:00</GoFlighteffectDate>
+	  <GoFlightexpiryDate>2014-12-31T00:00:00</GoFlightexpiryDate>
+      <EffectDate>2014-08-15T00:00:00</EffectDate>
+      <ExpiryDate>2014-12-31T00:00:00</ExpiryDate>
+      <IsSecurity>F</IsSecurity>
+      <MinAdvanceDays>0</MinAdvanceDays>
+      <MaxAdvanceDays>365</MaxAdvanceDays>
+      <CanSaleDPort>HGH</CanSaleDPort>
+      <CanSaleAPort>NNG</CanSaleAPort>
+      <LimitSaleDPort></LimitSaleDPort>
+      <LimitSaleAPort></LimitSaleAPort>
+      <SourceCity></SourceCity>
+      <RulePolicyID>134777</RulePolicyID>
+      <RulePolicyCode></RulePolicyCode>
+    </RulePolicyCondition>
+  </MessageBody>
+</RulePolicySummaryRequest>
+
+3.ByIDList
+<?xml version="1.0" encoding="utf-8"?>
+<RulePolicySummaryRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>String</UserName>
+      <Password>String</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">1</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>1</StartIndex>
+    <PageSize>100</PageSize>
+    <SearchType>ByID</SearchType>
+    <PolicyIDList>
+      <ID>134824</ID>
+	  <ID>134823</ID>
+	  <ID>134822</ID>
+    </PolicyIDList>
+  </MessageBody>
+</RulePolicySummaryRequest>
+

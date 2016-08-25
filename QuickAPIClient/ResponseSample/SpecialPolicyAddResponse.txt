@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialPolicyAddResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:specialPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-07-30T11:29:26.8928361+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <Result xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <Summary>
+        <SuccessCount>2</SuccessCount>
+        <FailedCount>0</FailedCount>
+      </Summary>
+      <SuccessList>
+        <ID>2653515989</ID>
+        <ID>2653515990</ID>
+      </SuccessList>
+      <FailedList />
+    </Result>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </TradeResult>
+</SpecialPolicyAddResponse>

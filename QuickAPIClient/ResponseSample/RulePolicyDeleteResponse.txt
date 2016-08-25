@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RulePolicyDeleteResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-11-10T22:40:03.1933152+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <Result xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <Summary>
+        <SuccessCount>1</SuccessCount>
+        <FailedCount>0</FailedCount>
+      </Summary>
+      <SuccessList>
+        <ID>150111</ID>
+      </SuccessList>
+      <FailedList />
+    </Result>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </TradeResult>
+</RulePolicyDeleteResponse>

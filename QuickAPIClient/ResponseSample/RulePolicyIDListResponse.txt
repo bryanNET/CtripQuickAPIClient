@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RulePolicyIDListResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:RulePolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-11-10T19:32:53.1971951+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+    <Extension xmlns="http://soa.ctrip.com/common/types/v1">
+      <Id>CLOGGING_TRACE_ID</Id>
+      <Value>7154777492318604494</Value>
+    </Extension>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+    <SearchResult xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <TotalCount>18</TotalCount>
+      <PolicyList>
+        <Policy>
+          <ID>150065</ID>
+          <Code>123123213</Code>
+        </Policy>
+        <Policy>
+          <ID>150062</ID>
+          <Code>adsdasdasdsdasd</Code>
+        </Policy>
+        <Policy>
+          <ID>150059</ID>
+          <Code>adsdasdasdsdasd</Code>
+        </Policy>
+        <Policy>
+          <ID>150047</ID>
+          <Code>123123213</Code>
+        </Policy>
+        <Policy>
+          <ID>150046</ID>
+          <Code>adsdasdasdsdasd</Code>
+        </Policy>
+        <Policy>
+          <ID>150045</ID>
+          <Code>adsdasdasdsdasd</Code>
+        </Policy>
+        <Policy>
+          <ID>150044</ID>
+          <Code>adsdasdasdsdasd</Code>
+        </Policy>
+        <Policy>
+          <ID>150043</ID>
+          <Code>123123213</Code>
+        </Policy>
+        <Policy>
+          <ID>150036</ID>
+          <Code>adsdasdasdsdasd</Code>
+        </Policy>
+        <Policy>
+          <ID>150018</ID>
+          <Code>adsdasdasdsdasd</Code>
+        </Policy>
+        <Policy>
+          <ID>149954</ID>
+          <Code>123123213</Code>
+        </Policy>
+        <Policy>
+          <ID>149953</ID>
+          <Code>123123213</Code>
+        </Policy>
+        <Policy>
+          <ID>149952</ID>
+          <Code>123123213</Code>
+        </Policy>
+        <Policy>
+          <ID>149951</ID>
+          <Code>123123213</Code>
+        </Policy>
+        <Policy>
+          <ID>149950</ID>
+          <Code>123123213</Code>
+        </Policy>
+        <Policy>
+          <ID>149697</ID>
+          <Code />
+        </Policy>
+        <Policy>
+          <ID>149693</ID>
+          <Code />
+        </Policy>
+        <Policy>
+          <ID>149659</ID>
+          <Code />
+        </Policy>
+      </PolicyList>
+    </SearchResult>
+  </TradeResult>
+</RulePolicyIDListResponse>

@@ -1,0 +1,52 @@
+﻿--ByCondition
+<?xml version="1.0" encoding="utf-8"?>
+<RuleRestrictSummaryRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:common:CommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">6</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">b1f694c3-1414-41c5-b4f8-b0c86f93fa5b</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>10</PageSize>
+    <SearchType>ByCondition</SearchType>
+    <SearchCondition>
+      <Name />
+      <IsEndorse>A</IsEndorse>
+      <IsRefund xsi:nil="true" />
+      <RefundRateRemarks />
+      <IsRerout>A</IsRerout>
+      <ReroutRateRemarks />
+      <IsUpgrade>A</IsUpgrade>
+      <UpgradeSubClass />
+      <FeeBasis>A</FeeBasis>
+      <ChargeRule xsi:nil="true" />
+    </SearchCondition>
+  </MessageBody>
+</RuleRestrictSummaryRequest>
+
+--ByIDList
+<?xml version="1.0"?>
+<RuleRestrictSummaryRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:common:CommonData:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">6</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1" />
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>10</PageSize>
+    <SearchType>ByID</SearchType>
+    <RcIDList>
+      <RcID>131274</RcID>
+    </RcIDList>
+  </MessageBody>
+</RuleRestrictSummaryRequest>
+
+

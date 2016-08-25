@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LowPricePolicyRoundTripListResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:lowPricePolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2015-05-14T20:10:22.2082275+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <PolicyList>
+      <Policy>
+        <PolicyID xsi:nil="true" />
+        <GoDate>2015-05-18T00:00:00</GoDate>
+        <GoFlightAirLine>CA</GoFlightAirLine>
+        <GoFlightNumber>CA1502</GoFlightNumber>
+        <GoFlightSubClass>Y</GoFlightSubClass>
+        <BackDate>2015-05-20T00:00:00</BackDate>
+        <BackFlightAirLine>HU</BackFlightAirLine>
+        <BackFlightNumber>HU7607</BackFlightNumber>
+        <BackFlightSubClass>Y</BackFlightSubClass>
+        <DepartPort>SHA</DepartPort>
+        <ArrivePort>PEK</ArrivePort>
+        <TradePolicyType>Other</TradePolicyType>
+        <CostPrice>130.00</CostPrice>
+        <IsOwnPolicy>F</IsOwnPolicy>
+        <SixMaxOrders>0</SixMaxOrders>
+        <ShareProductType>BusinessPriority</ShareProductType>
+        <LastUpdateTime>2015-03-25T02:08:34.81</LastUpdateTime>
+      </Policy>
+      <Policy>
+        <PolicyID xsi:nil="true" />
+        <GoDate>2015-05-18T00:00:00</GoDate>
+        <GoFlightAirLine>CA</GoFlightAirLine>
+        <GoFlightNumber>CA1502</GoFlightNumber>
+        <GoFlightSubClass>Y</GoFlightSubClass>
+        <BackDate>2015-05-20T00:00:00</BackDate>
+        <BackFlightAirLine>HU</BackFlightAirLine>
+        <BackFlightNumber>HU7605</BackFlightNumber>
+        <BackFlightSubClass>Y</BackFlightSubClass>
+        <DepartPort>SHA</DepartPort>
+        <ArrivePort>PEK</ArrivePort>
+        <TradePolicyType>Other</TradePolicyType>
+        <CostPrice>130.00</CostPrice>
+        <IsOwnPolicy>F</IsOwnPolicy>
+        <SixMaxOrders>0</SixMaxOrders>
+        <ShareProductType>BusinessPriority</ShareProductType>
+        <LastUpdateTime>2015-03-27T18:06:00.757</LastUpdateTime>
+      </Policy>
+      <Policy>
+        <PolicyID xsi:nil="true" />
+        <GoDate>2015-05-18T00:00:00</GoDate>
+        <GoFlightAirLine>CA</GoFlightAirLine>
+        <GoFlightNumber>CA1502</GoFlightNumber>
+        <GoFlightSubClass>Y</GoFlightSubClass>
+        <BackDate>2015-05-20T00:00:00</BackDate>
+        <BackFlightAirLine>HU</BackFlightAirLine>
+        <BackFlightNumber>HU7603</BackFlightNumber>
+        <BackFlightSubClass>Y</BackFlightSubClass>
+        <DepartPort>SHA</DepartPort>
+        <ArrivePort>PEK</ArrivePort>
+        <TradePolicyType>Other</TradePolicyType>
+        <CostPrice>130.00</CostPrice>
+        <IsOwnPolicy>F</IsOwnPolicy>
+        <SixMaxOrders>0</SixMaxOrders>
+        <ShareProductType>BusinessPriority</ShareProductType>
+        <LastUpdateTime>2015-03-25T02:08:34.81</LastUpdateTime>
+      </Policy>
+    </PolicyList>
+  </TradeResult>
+</LowPricePolicyRoundTripListResponse>

@@ -1,0 +1,13 @@
+﻿{
+  "MessageHead": {
+    "UserInfo": {
+      "UserName": "xy",
+      "Password": "C59498DADC3088E1526A22F852C68BEC"
+    },
+    "ClientID": 5,
+    "RequestGUID": "b21e3a8f-6da1-425e-8ae9-349242b067e7"
+  },
+  "MessageBody": {
+    "PolicySource": 6
+  }
+}

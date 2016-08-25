@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<DynamicRateRuleDeleteRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:dynamicRateRule:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>yuyingwu</UserName>
+      <Password>49A0293F089944DAEA2E044149C1010F</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">99dc6610-4f3d-40c0-a768-9bd8bfb3b810</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <DeleteType>ByID</DeleteType>
+    <DrrIDList>
+      <ID>1</ID>
+      <ID>2</ID>
+    </DrrIDList>
+    <DrrNameList />
+	<!--
+	<DeleteType>ByName</DeleteType>
+    <DrrIDList />
+    <DrrNameList>
+      <Name>88抢购</Name>
+    </DrrNameList>
+	-->
+  </MessageBody>
+</DynamicRateRuleDeleteRequest>

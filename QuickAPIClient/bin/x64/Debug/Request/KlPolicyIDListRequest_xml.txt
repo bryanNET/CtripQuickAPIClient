@@ -1,0 +1,68 @@
+﻿1. ByCondition-查所有
+<?xml version="1.0"?>
+<KPolicyIDListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:KPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>100000</PageSize>
+    <SearchType>ByCondition</SearchType>
+  </MessageBody>
+</KPolicyIDListRequest>
+
+2. ByCondition-根据条件查询
+<?xml version="1.0"?>
+<KPolicyIDListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:KPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>100000</PageSize>
+    <SearchType>ByCondition</SearchType>
+    <SearchCondition>
+      <BatchNo>1000</BatchNo>
+      <AirLine>SC</AirLine>
+      <EffectDate>2013-07-02T00:00:00</EffectDate>
+      <ExpiryDate>2013-11-13T00:00:00</ExpiryDate>
+      <IsExactDate>T</IsExactDate>
+      <DepartCity>KHN</DepartCity>
+      <ArriveCity>SHA</ArriveCity>
+      <IsValid>T</IsValid>
+      <IsCanSale>T</IsCanSale>
+      <FlightNo>1180</FlightNo>
+      <FixKSubclass></FixKSubclass>
+      <MinKSubclass></MinKSubclass>
+    </SearchCondition>
+  </MessageBody>
+</KPolicyIDListRequest>
+
+3. ByCode(不支持)
+<?xml version="1.0"?>
+<KPolicyIDListRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:KPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>xy</UserName>
+      <Password>C59498DADC3088E1526A22F852C68BEC</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">5</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">ec04acf0-3497-4791-84d8-bae7d01f9490</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>100000</PageSize>
+    <SearchType>ByCode</SearchType>
+    <PolicyCode>GEN-16:46-1</PolicyCode>
+  </MessageBody>
+</KPolicyIDListRequest>

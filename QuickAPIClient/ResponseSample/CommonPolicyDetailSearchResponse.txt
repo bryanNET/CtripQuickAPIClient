@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommonPolicyDetailSearchResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:ctrip:api:flight:trade:message:rawPolicy:v1">
+  <ResponseStatus>
+    <Timestamp xmlns="http://soa.ctrip.com/common/types/v1">2014-04-03T18:53:06.3324881+08:00</Timestamp>
+    <Ack xmlns="http://soa.ctrip.com/common/types/v1">Success</Ack>
+  </ResponseStatus>
+  <TradeResult>
+    <ErrorList />
+    <PolicyList>
+      <Policy>
+        <PolicyID>2379365</PolicyID>
+        <SummaryUnit>
+          <PolicyCode>TTT</PolicyCode>
+          <AirLine>CA</AirLine>
+          <FlightWay>S</FlightWay>
+          <DepartPort>PVG</DepartPort>
+          <ArrivePort>TSN</ArrivePort>
+          <ExpiryDate>2014-04-30T00:00:00</ExpiryDate>
+          <EffectDate>2014-04-01T00:00:00</EffectDate>
+          <OfficeNo />
+          <IsValid>F</IsValid>
+        </SummaryUnit>
+        <GoFlightUnit>
+          <EffectDate>2014-04-01T00:00:00</EffectDate>
+          <ExpiryDate>2014-04-30T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>A</SubClass>
+        </GoFlightUnit>
+        <PriceUnit>
+          <ReturnPrice>8.0000</ReturnPrice>
+          <ReturnPoint>5.000</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+      <Policy>
+        <PolicyID>18952</PolicyID>
+        <SummaryUnit>
+          <PolicyCode />
+          <AirLine>CA</AirLine>
+          <FlightWay>S</FlightWay>
+          <DepartPort>SHA</DepartPort>
+          <ArrivePort>PEK</ArrivePort>
+          <ExpiryDate>2013-09-23T00:00:00</ExpiryDate>
+          <EffectDate>2013-09-23T00:00:00</EffectDate>
+          <OfficeNo />
+          <IsValid>F</IsValid>
+        </SummaryUnit>
+        <GoFlightUnit>
+          <EffectDate>2013-09-23T00:00:00</EffectDate>
+          <ExpiryDate>2013-09-23T00:00:00</ExpiryDate>
+          <Days>1234567</Days>
+          <SubClass>F,E</SubClass>
+        </GoFlightUnit>
+        <PriceUnit>
+          <ReturnPrice>0.0000</ReturnPrice>
+          <ReturnPoint>0.000</ReturnPoint>
+        </PriceUnit>
+      </Policy>
+    </PolicyList>
+  </TradeResult>
+</CommonPolicyDetailSearchResponse>

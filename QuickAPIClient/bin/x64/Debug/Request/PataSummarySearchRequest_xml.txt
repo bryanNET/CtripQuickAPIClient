@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<PataSummarySearchRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:ctrip:api:flight:trade:message:PATAFailPolicy:v1">
+  <MessageHead>
+    <UserInfo xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">
+      <UserName>ypcao</UserName>
+      <Password>DF6B369D981E6F39393255E6ECE51D72</Password>
+    </UserInfo>
+    <ClientID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">4</ClientID>
+    <RequestGUID xmlns="urn:ctrip:api:flight:trade:common:baseType:v1">7711ef0e-36ba-43ba-8f5e-9d3a393bcd4e</RequestGUID>
+  </MessageHead>
+  <MessageBody>
+    <StartIndex>0</StartIndex>
+    <PageSize>10</PageSize>
+    <SearchCondition>
+      <PolicyType>SPECIAL</PolicyType>
+      <FlightWay>S</FlightWay>
+      <PolicyID xsi:nil="true" />
+      <PolicyCode />
+      <GoSubClass xsi:nil="true" />
+      <BackSubClass xsi:nil="true" />
+      <AirLine xsi:nil="true" />
+      <Dcity xsi:nil="true" />
+      <Acity xsi:nil="true" />
+      <IsPass>F</IsPass>
+    </SearchCondition>
+  </MessageBody>
+</PataSummarySearchRequest>
